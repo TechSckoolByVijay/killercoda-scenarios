@@ -35,5 +35,3 @@ ls / /home /var
 This shows contents of all three directories in one command!
 
 Click **Check** after exploring with ls.
-
-

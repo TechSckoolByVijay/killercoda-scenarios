@@ -63,5 +63,3 @@ pwd
 Note: `cd` without arguments takes you home!
 
 Click **Check** after practicing basic navigation.
-
-

@@ -47,5 +47,3 @@ cat /etc/hostname
 - ❌ Large files (will flood your terminal!)
 
 Click **Check** after exploring cat.
-
-

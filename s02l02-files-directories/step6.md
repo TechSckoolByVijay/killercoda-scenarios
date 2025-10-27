@@ -79,5 +79,3 @@ ls -la project/*/
 Great! You've used all the file operations in a realistic workflow.
 
 Click **Check** to complete the advanced practice.
-
-

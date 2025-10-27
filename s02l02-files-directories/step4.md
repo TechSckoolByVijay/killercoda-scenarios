@@ -47,5 +47,3 @@ mv file1.txt file2.txt scripts/
 **Safety tip:** Use `mv -i` for interactive mode to confirm overwrites!
 
 Click **Check** after practicing moves and renames.
-
-

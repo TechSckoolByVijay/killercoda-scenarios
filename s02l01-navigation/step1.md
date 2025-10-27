@@ -32,6 +32,3 @@ pwd
 Notice how your location changed to the root directory!
 
 Click **Check** after running both commands.
-
-
-

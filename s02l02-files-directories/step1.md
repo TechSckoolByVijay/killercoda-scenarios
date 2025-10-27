@@ -38,5 +38,3 @@ touch "my document.txt"
 **Pro tip:** Touch can also update the modification time of existing files without changing their content!
 
 Click **Check** after creating your files.
-
-

@@ -73,5 +73,3 @@ ls -la ~
 Perfect! You can now navigate confidently through the Linux filesystem.
 
 Click **Check** to complete the navigation mastery.
-
-

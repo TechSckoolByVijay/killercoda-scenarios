@@ -75,5 +75,3 @@ ls
 These shortcuts will save you lots of typing!
 
 Click **Check** after practicing cd shortcuts.
-
-

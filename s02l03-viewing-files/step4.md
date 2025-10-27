@@ -51,5 +51,3 @@ tail /var/log/auth.log
 **Pro tip:** Combine with grep like `tail -50 /var/log/syslog | grep error` to find recent errors!
 
 Click **Check** after exploring tail.
-
-

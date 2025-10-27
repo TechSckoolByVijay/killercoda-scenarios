@@ -49,5 +49,3 @@ ls -lS
 **Pro tip:** You can combine multiple options like `ls -laht` for all files, long format, human-readable sizes, sorted by time!
 
 Click **Check** after exploring ls options.
-
-

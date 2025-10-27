@@ -51,5 +51,3 @@ head /etc/passwd
 **Pro tip:** Combine with other commands like `head -20 largefile.txt | grep error` to search just the beginning!
 
 Click **Check** after exploring head.
-
-

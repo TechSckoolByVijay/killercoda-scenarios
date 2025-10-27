@@ -47,5 +47,3 @@ mkdir "My Projects"
 The `-p` flag is incredibly useful for creating complex directory structures in one command!
 
 Click **Check** after creating your directories.
-
-

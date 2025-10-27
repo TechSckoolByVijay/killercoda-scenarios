@@ -48,5 +48,3 @@ Navigate around, then press `q` to quit.
 - ✅ When you want to navigate back and forth
 
 Click **Check** after mastering less navigation.
-
-

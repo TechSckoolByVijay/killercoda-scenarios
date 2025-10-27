@@ -51,5 +51,3 @@ cp file1.txt file2.txt file3.txt docs/
 **Important:** Use `-r` (recursive) when copying directories!
 
 Click **Check** after practicing file copying.
-
-

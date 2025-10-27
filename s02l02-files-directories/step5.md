@@ -56,5 +56,3 @@ rm -r archive
 - Use `rm -i` when in doubt
 
 Click **Check** after practicing safe deletion.
-
-

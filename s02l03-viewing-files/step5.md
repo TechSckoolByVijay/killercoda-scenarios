@@ -1,63 +1,66 @@
-# Step 5 — Real-time file monitoring
+# Step 5 — Quick file view summary
 
-The most powerful feature of `tail` is real-time monitoring with the `-f` flag!
+Let's review all the file viewing commands you've learned!
 
 ---
 
-### ⚡ Task — Master real-time monitoring
+### 📋 File Viewing Commands Summary
 
-Create a log file and monitor it:
-
-```bash
-touch myapp.log
-```{{exec}}
-
-Start monitoring in real-time:
+Create a test file to practice with:
 
 ```bash
-tail -f myapp.log
+echo -e "Line 1\nLine 2\nLine 3\nLine 4\nLine 5\nLine 6\nLine 7\nLine 8\nLine 9\nLine 10" > practice.txt
 ```{{exec}}
 
-Now the terminal will wait and show new lines as they're added!
-
-**Open a NEW terminal (or new tab) and add content:**
+View entire file:
 
 ```bash
-echo "Application started" >> myapp.log
+cat practice.txt
 ```{{exec}}
+
+View with paging:
 
 ```bash
-echo "User logged in" >> myapp.log
+less practice.txt
 ```{{exec}}
+
+View first 3 lines:
 
 ```bash
-echo "Processing request" >> myapp.log
+head -3 practice.txt
 ```{{exec}}
 
-Watch how the content appears in real-time in your monitoring terminal!
-
-Stop monitoring by pressing `Ctrl+C` in the monitoring terminal.
-
-Monitor multiple files:
+View last 3 lines:
 
 ```bash
-tail -f myapp.log /var/log/syslog
+tail -3 practice.txt
 ```{{exec}}
 
-Monitor with line count:
+View lines 2-7:
 
 ```bash
-tail -n 20 -f myapp.log
+sed -n '2,7p' practice.txt
 ```{{exec}}
 
-**Real-world scenarios:**
-- 📊 **Development**: Monitor application logs while testing
-- 🔍 **Debugging**: Watch error logs in real-time
-- 📈 **System Admin**: Monitor system logs for issues
-- 🚀 **Deployment**: Watch deployment logs during releases
+Count lines, words, characters:
 
-**Pro tip:** Use `tail -f` during application development to see logs as your code runs!
+```bash
+wc practice.txt
+```{{exec}}
 
-Click **Check** after mastering real-time monitoring.
+**Command Quick Reference:**
+- `cat` - Display entire file contents
+- `less` - View files page by page (q to quit)
+- `head` - Show first lines of file
+- `tail` - Show last lines of file
+- `wc` - Count lines, words, characters
 
+Practice combining commands:
 
+```bash
+head -5 numbers.txt | tail -2
+```{{exec}}
+
+This shows lines 4-5 of numbers.txt (first 5, then last 2 of those)!
+
+**🎉 Congratulations!** You now know the essential file viewing commands for Linux!
