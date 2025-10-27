@@ -11,21 +11,21 @@ The `/etc` directory contains system-wide configuration files. This is where Lin
 
 **Task:** Let's explore the etc directory:
 
-```
+```bash
 ls /etc
-```
+```{{exec}}
 
 **Task:** Let's look at the hosts file (used for local DNS):
 
-```
+```bash
 cat /etc/hosts
-```
+```{{exec}}
 
 **Task:** Let's see the system's hostname:
 
-```
+```bash
 cat /etc/hostname
-```
+```{{exec}}
 
 **Note:** These configuration files control how your Linux system behaves!
 

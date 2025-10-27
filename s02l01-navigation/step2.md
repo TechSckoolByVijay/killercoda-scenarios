@@ -7,29 +7,29 @@ The `ls` command lists the contents of a directory. It's like opening a folder i
 
 **Task:** Let's see what's in your current directory:
 
-```
+```bash
 ls
-```
+```{{exec}}
 
 **Task:** Now let's see what's in the root directory:
 
-```
+```bash
 ls /
-```
+```{{exec}}
 
 **Task:** List what's in the home directory:
 
-```
+```bash
 ls /home
-```
+```{{exec}}
 
 **Key insight:** You can use `ls` on any directory, not just your current one!
 
 **Task:** Try listing contents of multiple directories at once:
 
-```
+```bash
 ls / /home /var
-```
+```{{exec}}
 
 This shows contents of all three directories in one command!
 

@@ -11,9 +11,9 @@ The Command Line Interface (CLI) might seem intimidating at first, but it's incr
 
 **Task:** Let's see the difference in speed. Try listing files using both methods:
 
-```
+```bash
 ls -la
-```
+```{{exec}}
 
 This single command shows detailed information about all files. Compare this to clicking through multiple GUI dialogs!
 

@@ -7,9 +7,9 @@ The root directory `/` is the top of the Linux filesystem tree. Everything branc
 
 **Task:** Let's explore the root directory structure:
 
-```
+```bash
 ls /
-```
+```{{exec}}
 
 You'll see directories like:
 - `bin` - essential system binaries
@@ -21,9 +21,9 @@ You'll see directories like:
 
 **Task:** Now let's see where we currently are:
 
-```
+```bash
 pwd
-```
+```{{exec}}
 
 Click **Check** after running both commands.
 ````

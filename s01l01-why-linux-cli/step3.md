@@ -8,15 +8,15 @@ Successful developers think in terms of:
 
 **Task:** Let's practice the developer mindset. Instead of manually checking the current time, let's use a command:
 
-```
+```bash
 date
-```
+```{{exec}}
 
 Now let's see system uptime (how long the system has been running):
 
-```
+```bash
 uptime
-```
+```{{exec}}
 
 These commands give us instant system information without navigating through GUI menus!
 

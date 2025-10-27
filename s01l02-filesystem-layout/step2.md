@@ -9,23 +9,23 @@ The `/home` directory contains personal directories for each user. Think of it l
 
 **Task:** Let's explore the home directory:
 
-```
+```bash
 ls /home
-```
+```{{exec}}
 
 **Task:** Let's see what's in your current user's home directory:
 
-```
+```bash
 ls ~
-```
+```{{exec}}
 
 The `~` symbol is a shortcut for your home directory!
 
 **Task:** Let's verify what `~` represents:
 
-```
+```bash
 echo $HOME
-```
+```{{exec}}
 
 Click **Check** after running all three commands.
 ````

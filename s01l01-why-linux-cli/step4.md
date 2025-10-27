@@ -10,17 +10,17 @@ Let's experience the power of CLI firsthand!
 
 **Task:** Run these commands one by one:
 
-```
+```bash
 whoami
-```
+```{{exec}}
 
-```
+```bash
 df -h
-```
+```{{exec}}
 
-```
+```bash
 ps aux | head -10
-```
+```{{exec}}
 
 Each command gives you instant, precise information:
 - `whoami`: Shows current username
