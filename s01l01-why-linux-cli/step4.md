@@ -1,4 +1,3 @@
-````markdown
 # Step 4 — CLI Benefits in Action
 
 Let's experience the power of CLI firsthand!
@@ -8,13 +7,23 @@ Let's experience the power of CLI firsthand!
 **GUI approach**: Multiple clicks through different system dialogs
 **CLI approach**: Three simple commands!
 
-**Task:** Run these commands one by one:
+---
 
-`whoami`{{exec}}
+### 🎯 Task — Experience CLI power
 
-`df -h`{{exec}}
+Run these commands one by one:
 
-`ps aux | head -10`{{exec}}
+```bash
+whoami
+```{{exec}}
+
+```bash
+df -h
+```{{exec}}
+
+```bash
+ps aux | head -10
+```{{exec}}
 
 Each command gives you instant, precise information:
 - `whoami`: Shows current username
@@ -24,6 +33,5 @@ Each command gives you instant, precise information:
 This is the power of CLI - precise, fast, and composable!
 
 Click **Check** after running all three commands.
-````
 
 

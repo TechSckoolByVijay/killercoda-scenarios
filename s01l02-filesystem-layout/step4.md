@@ -1,4 +1,3 @@
-````markdown
 # Step 4 — Configuration (/etc)
 
 The `/etc` directory contains system-wide configuration files. This is where Linux stores most system settings.
@@ -9,27 +8,30 @@ The `/etc` directory contains system-wide configuration files. This is where Lin
 - `/etc/fstab` - filesystem mount information
 - `/etc/crontab` - scheduled tasks
 
-**Task:** Let's explore the etc directory:
+---
 
-```
+### 🔧 Task — Explore configuration files
+
+Let's explore the etc directory:
+
+```bash
 ls /etc
 ```{{exec}}
 
-**Task:** Let's look at the hosts file (used for local DNS):
+Let's look at the hosts file (used for local DNS):
 
-```
+```bash
 cat /etc/hosts
 ```{{exec}}
 
-**Task:** Let's see the system's hostname:
+Let's see the system's hostname:
 
-```
+```bash
 cat /etc/hostname
 ```{{exec}}
 
 **Note:** These configuration files control how your Linux system behaves!
 
 Click **Check** after running all three commands.
-````
 
 

@@ -1,19 +1,20 @@
-````markdown
 # Step 2 — less: Paginated viewing
 
 The `less` command is perfect for viewing large files page by page. It's interactive!
 
-**Creating a larger test file:**
+---
 
-**Task:** Create a file with many lines:
+### 📖 Task — Master paginated viewing with less
 
-```
+Create a file with many lines:
+
+```bash
 seq 1 100 > numbers.txt
 ```{{exec}}
 
-**Task:** View with less:
+View with less:
 
-```
+```bash
 less numbers.txt
 ```{{exec}}
 
@@ -26,16 +27,16 @@ less numbers.txt
 - **G**: Go to end
 - **g**: Go to beginning
 
-**Task:** Try the navigation! Search for "50":
+**Try the navigation! Search for "50":**
 1. Press `/`
 2. Type `50`
 3. Press Enter
 4. Press `n` to find next occurrence
 5. Press `q` to quit
 
-**Task:** View a system log with less:
+View a system log with less:
 
-```
+```bash
 less /var/log/syslog
 ```{{exec}}
 
@@ -47,6 +48,5 @@ Navigate around, then press `q` to quit.
 - ✅ When you want to navigate back and forth
 
 Click **Check** after mastering less navigation.
-````
 
 

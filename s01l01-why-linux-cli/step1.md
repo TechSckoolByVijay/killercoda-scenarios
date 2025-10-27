@@ -1,4 +1,3 @@
-````markdown
 # Step 1 — Understanding Linux
 
 Linux is everywhere! From web servers to smartphones (Android), from supercomputers to embedded devices.
@@ -9,13 +8,18 @@ Linux is everywhere! From web servers to smartphones (Android), from supercomput
 - Highly customizable and secure
 - Industry standard for cloud computing
 
-**Task:** Let's start by checking what Linux distribution we're using:
+---
 
-`cat /etc/os-release`{{exec}}
+### 🧪 Task — Check your Linux distribution
+
+Let's start by checking what Linux distribution we're using:
+
+```bash
+cat /etc/os-release
+```{{exec}}
 
 This command shows information about our Linux system. Run it and observe the output.
 
 Click **Check** when you've run the command.
-````
 
 
