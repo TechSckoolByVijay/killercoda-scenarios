@@ -53,5 +53,3 @@ pwd
 Great! You now understand how to navigate the Linux filesystem hierarchy.
 
 Click **Check** after completing the navigation practice.
-
-

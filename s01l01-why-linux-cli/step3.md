@@ -24,5 +24,3 @@ uptime
 These commands give us instant system information without navigating through GUI menus!
 
 Click **Check** after running both commands.
-
-

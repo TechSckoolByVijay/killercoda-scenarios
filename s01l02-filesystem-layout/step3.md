@@ -33,5 +33,3 @@ head /var/log/syslog
 This shows the first 10 lines of the system log - very useful for troubleshooting!
 
 Click **Check** after running all three commands.
-
-

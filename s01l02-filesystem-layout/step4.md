@@ -33,5 +33,3 @@ cat /etc/hostname
 **Note:** These configuration files control how your Linux system behaves!
 
 Click **Check** after running all three commands.
-
-

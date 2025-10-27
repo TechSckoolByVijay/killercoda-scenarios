@@ -33,5 +33,3 @@ Each command gives you instant, precise information:
 This is the power of CLI - precise, fast, and composable!
 
 Click **Check** after running all three commands.
-
-
