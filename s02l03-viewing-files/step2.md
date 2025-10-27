@@ -7,13 +7,13 @@ The `less` command is perfect for viewing large files page by page. It's interac
 
 **Task:** Create a file with many lines:
 
-```bash
+```
 seq 1 100 > numbers.txt
 ```{{exec}}
 
 **Task:** View with less:
 
-```bash
+```
 less numbers.txt
 ```{{exec}}
 
@@ -35,7 +35,7 @@ less numbers.txt
 
 **Task:** View a system log with less:
 
-```bash
+```
 less /var/log/syslog
 ```{{exec}}
 
@@ -48,3 +48,5 @@ Navigate around, then press `q` to quit.
 
 Click **Check** after mastering less navigation.
 ````
+
+

@@ -10,17 +10,11 @@ Let's experience the power of CLI firsthand!
 
 **Task:** Run these commands one by one:
 
-```bash
-whoami
-```{{exec}}
+`whoami`{{exec}}
 
-```bash
-df -h
-```{{exec}}
+`df -h`{{exec}}
 
-```bash
-ps aux | head -10
-```{{exec}}
+`ps aux | head -10`{{exec}}
 
 Each command gives you instant, precise information:
 - `whoami`: Shows current username
@@ -31,3 +25,5 @@ This is the power of CLI - precise, fast, and composable!
 
 Click **Check** after running all three commands.
 ````
+
+

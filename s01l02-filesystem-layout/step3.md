@@ -11,19 +11,19 @@ The `/var` directory contains data that changes frequently during system operati
 
 **Task:** Let's explore the var directory:
 
-```bash
+```
 ls /var
 ```{{exec}}
 
 **Task:** Let's look at the log directory (very important for debugging!):
 
-```bash
+```
 ls /var/log
 ```{{exec}}
 
 **Task:** Let's peek at a system log file:
 
-```bash
+```
 head /var/log/syslog
 ```{{exec}}
 
@@ -31,3 +31,5 @@ This shows the first 10 lines of the system log - very useful for troubleshootin
 
 Click **Check** after running all three commands.
 ````
+
+

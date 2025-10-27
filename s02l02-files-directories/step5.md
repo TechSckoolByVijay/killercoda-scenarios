@@ -7,19 +7,19 @@ The `rm` command removes (deletes) files and directories. **Be careful - this is
 
 **Task:** Create a test file to delete:
 
-```bash
+```
 touch test_delete.txt
 ```{{exec}}
 
 **Task:** Remove the file:
 
-```bash
+```
 rm test_delete.txt
 ```{{exec}}
 
 **Task:** Verify it's gone:
 
-```bash
+```
 ls test_delete.txt
 ```{{exec}}
 
@@ -27,13 +27,13 @@ ls test_delete.txt
 
 **Task:** Create another test file:
 
-```bash
+```
 touch another_test.txt
 ```{{exec}}
 
 **Task:** Use interactive mode for safety:
 
-```bash
+```
 rm -i another_test.txt
 ```{{exec}}
 
@@ -43,13 +43,13 @@ Type `y` and press Enter to confirm.
 
 **Task:** Remove an empty directory:
 
-```bash
+```
 rmdir "My Projects"
 ```{{exec}}
 
 **Task:** Remove directory with contents (use `-r` for recursive):
 
-```bash
+```
 rm -r archive
 ```{{exec}}
 
@@ -60,3 +60,5 @@ rm -r archive
 
 Click **Check** after practicing safe deletion.
 ````
+
+

@@ -7,7 +7,7 @@ The `head` command shows the first few lines of a file. Perfect for quick previe
 
 **Task:** View first 10 lines (default):
 
-```bash
+```
 head numbers.txt
 ```{{exec}}
 
@@ -15,13 +15,13 @@ head numbers.txt
 
 **Task:** View first 5 lines:
 
-```bash
+```
 head -n 5 numbers.txt
 ```{{exec}}
 
 **Task:** Even shorter - first 3 lines:
 
-```bash
+```
 head -3 numbers.txt
 ```{{exec}}
 
@@ -29,7 +29,7 @@ head -3 numbers.txt
 
 **Task:** View first lines of multiple files:
 
-```bash
+```
 head -5 small.txt numbers.txt
 ```{{exec}}
 
@@ -37,13 +37,13 @@ head -5 small.txt numbers.txt
 
 **Task:** Check the beginning of a log file:
 
-```bash
+```
 head /var/log/syslog
 ```{{exec}}
 
 **Task:** Preview a configuration file:
 
-```bash
+```
 head /etc/passwd
 ```{{exec}}
 
@@ -57,3 +57,5 @@ head /etc/passwd
 
 Click **Check** after exploring head.
 ````
+
+

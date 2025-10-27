@@ -7,13 +7,13 @@ The most powerful feature of `tail` is real-time monitoring with the `-f` flag!
 
 **Task:** Create a log file and monitor it:
 
-```bash
+```
 touch myapp.log
 ```{{exec}}
 
 **Task:** Start monitoring in real-time:
 
-```bash
+```
 tail -f myapp.log
 ```{{exec}}
 
@@ -21,15 +21,15 @@ Now the terminal will wait and show new lines as they're added!
 
 **Task:** Open a NEW terminal (or new tab) and add content:
 
-```bash
+```
 echo "Application started" >> myapp.log
 ```{{exec}}
 
-```bash
+```
 echo "User logged in" >> myapp.log
 ```{{exec}}
 
-```bash
+```
 echo "Processing request" >> myapp.log
 ```{{exec}}
 
@@ -41,13 +41,13 @@ Watch how the content appears in real-time in your monitoring terminal!
 
 **Task:** Monitor multiple files:
 
-```bash
+```
 tail -f myapp.log /var/log/syslog
 ```{{exec}}
 
 **Task:** Monitor with line count:
 
-```bash
+```
 tail -n 20 -f myapp.log
 ```{{exec}}
 
@@ -61,3 +61,5 @@ tail -n 20 -f myapp.log
 
 Click **Check** after mastering real-time monitoring.
 ````
+
+

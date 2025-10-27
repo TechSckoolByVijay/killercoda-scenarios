@@ -7,7 +7,7 @@ The `tail` command shows the last few lines of a file. Essential for viewing rec
 
 **Task:** View last 10 lines (default):
 
-```bash
+```
 tail numbers.txt
 ```{{exec}}
 
@@ -15,13 +15,13 @@ tail numbers.txt
 
 **Task:** View last 5 lines:
 
-```bash
+```
 tail -n 5 numbers.txt
 ```{{exec}}
 
 **Task:** View last 3 lines:
 
-```bash
+```
 tail -3 numbers.txt
 ```{{exec}}
 
@@ -29,7 +29,7 @@ tail -3 numbers.txt
 
 **Task:** View last lines of multiple files:
 
-```bash
+```
 tail -5 small.txt numbers.txt
 ```{{exec}}
 
@@ -37,13 +37,13 @@ tail -5 small.txt numbers.txt
 
 **Task:** Check recent system events:
 
-```bash
+```
 tail /var/log/syslog
 ```{{exec}}
 
 **Task:** See recent authentication attempts:
 
-```bash
+```
 tail /var/log/auth.log
 ```{{exec}}
 
@@ -57,3 +57,5 @@ tail /var/log/auth.log
 
 Click **Check** after exploring tail.
 ````
+
+
