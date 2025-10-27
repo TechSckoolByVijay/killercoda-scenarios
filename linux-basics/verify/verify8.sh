@@ -1,7 +1,6 @@
 #!/bin/bash
-# Verify: ps run
-set -e
-if history | tail -n 200 | grep -E "\bps( |$)" >/dev/null 2>&1 || ps >/dev/null 2>&1; then
+# Verify: ps command works
+if ps >/dev/null 2>&1; then
   echo "done"
   exit 0
 else

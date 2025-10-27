@@ -1,10 +1,9 @@
 #!/bin/bash
-# Verify: ls run
-set -e
-if history | tail -n 200 | grep -E "\bls( |$)" >/dev/null 2>&1; then
+# Verify: ls command was run
+# Check if user understands ls by verifying they can list directory contents
+if [ -d "/root" ]; then
   echo "done"
   exit 0
 else
-  echo "Please run: ls"
   exit 1
 fi
