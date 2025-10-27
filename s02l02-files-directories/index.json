@@ -1,0 +1,19 @@
+{
+  "title": "S02L02: Files & Directories - touch, mkdir, rm, mv, cp",
+  "description": "Master file and directory operations: creating, copying, moving, and deleting files and folders.",
+  "time": "8 minutes",
+  "difficulty": "Beginner",
+  "details": {
+    "steps": [
+      {"title": "Step 1 — Creating files with touch", "text": "step1.md", "verify": "verify/verify1.sh"},
+      {"title": "Step 2 — Creating directories with mkdir", "text": "step2.md", "verify": "verify/verify2.sh"},
+      {"title": "Step 3 — Copying files with cp", "text": "step3.md", "verify": "verify/verify3.sh"},
+      {"title": "Step 4 — Moving/Renaming with mv", "text": "step4.md", "verify": "verify/verify4.sh"},
+      {"title": "Step 5 — Removing files and directories with rm", "text": "step5.md", "verify": "verify/verify5.sh"},
+      {"title": "Step 6 — Advanced operations practice", "text": "step6.md", "verify": "verify/verify6.sh"}
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

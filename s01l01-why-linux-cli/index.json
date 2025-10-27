@@ -1,0 +1,17 @@
+{
+  "title": "S01L01: Why Linux & Why CLI",
+  "description": "Understanding the importance of Linux and Command Line Interface for developers. Building terminal confidence and developing a dev mindset.",
+  "time": "5 minutes",
+  "difficulty": "Beginner",
+  "details": {
+    "steps": [
+      {"title": "Step 1 — Understanding Linux", "text": "step1.md", "verify": "verify/verify1.sh"},
+      {"title": "Step 2 — Terminal vs GUI", "text": "step2.md", "verify": "verify/verify2.sh"},
+      {"title": "Step 3 — Developer Mindset", "text": "step3.md", "verify": "verify/verify3.sh"},
+      {"title": "Step 4 — CLI Benefits", "text": "step4.md", "verify": "verify/verify4.sh"}
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

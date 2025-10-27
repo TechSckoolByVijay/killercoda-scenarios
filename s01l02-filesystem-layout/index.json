@@ -1,0 +1,18 @@
+{
+  "title": "S01L02: Linux Filesystem Layout",
+  "description": "Explore the Linux filesystem hierarchy: /, /home, /var, /etc and understand how Linux organizes files and directories.",
+  "time": "6 minutes",
+  "difficulty": "Beginner",
+  "details": {
+    "steps": [
+      {"title": "Step 1 — Root Directory (/)", "text": "step1.md", "verify": "verify/verify1.sh"},
+      {"title": "Step 2 — Home Directory (/home)", "text": "step2.md", "verify": "verify/verify2.sh"},
+      {"title": "Step 3 — Variable Data (/var)", "text": "step3.md", "verify": "verify/verify3.sh"},
+      {"title": "Step 4 — Configuration (/etc)", "text": "step4.md", "verify": "verify/verify4.sh"},
+      {"title": "Step 5 — Navigation Practice", "text": "step5.md", "verify": "verify/verify5.sh"}
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

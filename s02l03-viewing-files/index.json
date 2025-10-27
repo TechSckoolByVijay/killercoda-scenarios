@@ -1,0 +1,18 @@
+{
+  "title": "S02L03: Viewing Files - cat, less, head, tail",
+  "description": "Master different ways to view file contents: complete files, page by page, beginnings, endings, and real-time monitoring.",
+  "time": "6 minutes",
+  "difficulty": "Beginner",
+  "details": {
+    "steps": [
+      {"title": "Step 1 — cat: View entire files", "text": "step1.md", "verify": "verify/verify1.sh"},
+      {"title": "Step 2 — less: Paginated viewing", "text": "step2.md", "verify": "verify/verify2.sh"},
+      {"title": "Step 3 — head: First lines", "text": "step3.md", "verify": "verify/verify3.sh"},
+      {"title": "Step 4 — tail: Last lines", "text": "step4.md", "verify": "verify/verify4.sh"},
+      {"title": "Step 5 — Real-time file monitoring", "text": "step5.md", "verify": "verify/verify5.sh"}
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

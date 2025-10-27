@@ -1,0 +1,19 @@
+{
+  "title": "S02L01: Navigation - pwd, ls, cd",
+  "description": "Master the three essential navigation commands: pwd (where am I?), ls (what's here?), and cd (go somewhere else).",
+  "time": "8 minutes",
+  "difficulty": "Beginner",
+  "details": {
+    "steps": [
+      {"title": "Step 1 — pwd: Where am I?", "text": "step1.md", "verify": "verify/verify1.sh"},
+      {"title": "Step 2 — ls: What's here?", "text": "step2.md", "verify": "verify/verify2.sh"},
+      {"title": "Step 3 — cd: Basic navigation", "text": "step3.md", "verify": "verify/verify3.sh"},
+      {"title": "Step 4 — ls options and flags", "text": "step4.md", "verify": "verify/verify4.sh"},
+      {"title": "Step 5 — cd shortcuts and tricks", "text": "step5.md", "verify": "verify/verify5.sh"},
+      {"title": "Step 6 — Navigation practice", "text": "step6.md", "verify": "verify/verify6.sh"}
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
