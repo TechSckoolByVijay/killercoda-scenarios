@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2D3748;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A202C;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bg)"/>
+  
+  <!-- Terminal window -->
+  <rect x="50" y="60" width="300" height="180" rx="8" fill="#1A1A1A" stroke="#4A5568" stroke-width="2"/>
+  
+  <!-- Terminal header -->
+  <rect x="50" y="60" width="300" height="30" rx="8" fill="#2D3748"/>
+  <rect x="50" y="82" width="300" height="8" fill="#2D3748"/>
+  
+  <!-- Window controls -->
+  <circle cx="70" cy="75" r="5" fill="#FC8181"/>
+  <circle cx="90" cy="75" r="5" fill="#F6E05E"/>
+  <circle cx="110" cy="75" r="5" fill="#68D391"/>
+  
+  <!-- Terminal text -->
+  <text x="70" y="115" font-family="monospace" font-size="12" fill="#68D391">$ pwd</text>
+  <text x="70" y="135" font-family="monospace" font-size="12" fill="#E2E8F0">/home/user</text>
+  <text x="70" y="155" font-family="monospace" font-size="12" fill="#68D391">$ ls -la</text>
+  <text x="70" y="175" font-family="monospace" font-size="12" fill="#E2E8F0">drwxr-xr-x 2 user user 4096</text>
+  <text x="70" y="195" font-family="monospace" font-size="12" fill="#68D391">$ mkdir project</text>
+  <text x="70" y="215" font-family="monospace" font-size="12" fill="#68D391">$ _</text>
+  
+  <!-- Title -->
+  <text x="200" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#E2E8F0" text-anchor="middle">Linux Basics</text>
+  <text x="200" y="270" font-family="Arial, sans-serif" font-size="14" fill="#A0AEC0" text-anchor="middle">8 Essential Commands</text>
+</svg>

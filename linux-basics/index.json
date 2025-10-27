@@ -3,6 +3,7 @@
   "description": "Hands-on practice for beginners: pwd, ls, mkdir, cd, touch, cat, cp, mv, rm, ps. Flexible verification and final scoring.",
   "time": "15 minutes",
   "difficulty": "Beginner",
+  "image": "assets/cover.svg",
   "details": {
     "steps": [
       {"title": "Step 1 — pwd", "text": "step1.md", "verify": "verify/verify1.sh"},
