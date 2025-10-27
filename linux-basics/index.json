@@ -1,0 +1,18 @@
+{
+  "title": "Linux Basics: 8 Essential Commands",
+  "description": "Hands-on practice for beginners: pwd, ls, mkdir, cd, touch, cat, cp, mv, rm, ps. Flexible verification and final scoring.",
+  "time": "15 minutes",
+  "difficulty": "Beginner",
+  "details": {
+    "steps": [
+      {"title": "Step 1 — pwd", "text": "step1.md", "verify": "verify/verify1.sh"},
+      {"title": "Step 2 — ls", "text": "step2.md", "verify": "verify/verify2.sh"},
+      {"title": "Step 3 — mkdir and cd", "text": "step3.md", "verify": "verify/verify3.sh"},
+      {"title": "Step 4 — create source file", "text": "step4.md", "verify": "verify/verify4.sh"},
+      {"title": "Step 5 — read file with cat", "text": "step5.md", "verify": "verify/verify5.sh"},
+      {"title": "Step 6 — copy file (cp)", "text": "step6.md", "verify": "verify/verify6.sh"},
+      {"title": "Step 7 — move/rename file (mv)", "text": "step7.md", "verify": "verify/verify7.sh"},
+      {"title": "Step 8 — list processes (ps)", "text": "step8.md", "verify": "verify/verify8.sh"}
+    ]
+  }
+}
