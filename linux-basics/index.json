@@ -3,7 +3,6 @@
   "description": "Hands-on practice for beginners: pwd, ls, mkdir, cd, touch, cat, cp, mv, rm, ps. Flexible verification and final scoring.",
   "time": "15 minutes",
   "difficulty": "Beginner",
-  "image": "assets/cover.png",
   "details": {
     "steps": [
       {"title": "Step 1 — pwd", "text": "step1.md", "verify": "verify/verify1.sh"},
@@ -15,5 +14,8 @@
       {"title": "Step 7 — move/rename file (mv)", "text": "step7.md", "verify": "verify/verify7.sh"},
       {"title": "Step 8 — list processes (ps)", "text": "step8.md", "verify": "verify/verify8.sh"}
     ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
   }
 }
