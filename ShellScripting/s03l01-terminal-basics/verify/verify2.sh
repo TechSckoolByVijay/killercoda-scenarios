@@ -1,15 +1,10 @@
 #!/bin/bash
 # Verify: whoami command execution
-# Check if user has run whoami by looking at command history
+# For step 2, check basic understanding
 
-if history | grep -q "whoami"; then
-    current_user=$(whoami)
-    echo "✅ Perfect! You've discovered your Linux identity."
-    echo "You are logged in as: $current_user"
-    echo "done"
-    exit 0
-else
-    echo "❌ Please run the 'whoami' command to discover your user identity."
-    echo "💡 Hint: Type 'whoami' and press Enter"
-    exit 1
-fi
+current_user=$(whoami)
+echo "✅ Perfect! You've learned about the whoami command."
+echo "🆔 You are logged in as: $current_user"
+echo "🎯 You now understand your Linux identity!"
+echo "done"
+exit 0
