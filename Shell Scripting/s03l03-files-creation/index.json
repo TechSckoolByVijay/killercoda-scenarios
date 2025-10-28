@@ -1,0 +1,19 @@
+{
+  "title": "S03L03: Files Creation & Viewing - Your Linux Library",
+  "description": "Master file creation with touch, mkdir, and viewing with cat, less, head, tail. Become the librarian of your Linux world!",
+  "time": "15 minutes",
+  "difficulty": "Beginner", 
+  "details": {
+    "steps": [
+      {"title": "Step 1 — Create Empty Files (touch)", "text": "step1.md", "verify": "verify/verify1.sh"},
+      {"title": "Step 2 — Make Directories (mkdir)", "text": "step2.md", "verify": "verify/verify2.sh"},
+      {"title": "Step 3 — View Files Completely (cat)", "text": "step3.md", "verify": "verify/verify3.sh"},
+      {"title": "Step 4 — Scroll Through Files (less)", "text": "step4.md", "verify": "verify/verify4.sh"},
+      {"title": "Step 5 — Peek at Beginnings & Endings (head/tail)", "text": "step5.md", "verify": "verify/verify5.sh"},
+      {"title": "Step 6 — File Management Master Practice", "text": "step6.md", "verify": "verify/verify6.sh"}
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "S03L02: Navigation Mastery - Move Like a Linux Ninja",
+  "description": "Master ls, cd, and path navigation. Learn to move through the Linux filesystem with absolute and relative paths like a pro!",
+  "time": "12 minutes", 
+  "difficulty": "Beginner",
+  "details": {
+    "steps": [
+      {"title": "Step 1 — See Your World (ls)", "text": "step1.md", "verify": "verify/verify1.sh"},
+      {"title": "Step 2 — Understanding Paths", "text": "step2.md", "verify": "verify/verify2.sh"},
+      {"title": "Step 3 — Move Around (cd)", "text": "step3.md", "verify": "verify/verify3.sh"},
+      {"title": "Step 4 — Advanced ls Options", "text": "step4.md", "verify": "verify/verify4.sh"},
+      {"title": "Step 5 — Navigation Master Practice", "text": "step5.md", "verify": "verify/verify5.sh"}
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

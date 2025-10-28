@@ -1,0 +1,17 @@
+{
+  "title": "S03L06: Terminal Mastery Quiz - Prove Your Skills",
+  "description": "Comprehensive quiz covering all terminal basics: pwd, whoami, clear, ls, cd, paths, touch, mkdir, cat, less, head, tail, grep, cp, mv, rm, find. Test your Linux knowledge!",
+  "time": "25 minutes",
+  "difficulty": "Beginner to Intermediate",
+  "details": {
+    "steps": [
+      {"title": "Quiz Part 1 — Terminal Basics (Questions 1-4)", "text": "step1.md", "verify": "verify/verify1.sh"},
+      {"title": "Quiz Part 2 — Navigation Mastery (Questions 5-8)", "text": "step2.md", "verify": "verify/verify2.sh"},
+      {"title": "Quiz Part 3 — File Operations (Questions 9-12)", "text": "step3.md", "verify": "verify/verify3.sh"},
+      {"title": "Quiz Part 4 — Advanced Challenges (Questions 13-14)", "text": "step4.md", "verify": "verify/verify4.sh"}
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

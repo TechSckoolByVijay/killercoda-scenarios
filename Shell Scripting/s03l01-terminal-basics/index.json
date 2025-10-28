@@ -1,0 +1,17 @@
+{
+  "title": "S03L01: Terminal Basics - Your First Linux Conversation",
+  "description": "Master the essential terminal commands: pwd, whoami, clear. Learn to navigate the Linux terminal like a pro!",
+  "time": "8 minutes",
+  "difficulty": "Beginner",
+  "details": {
+    "steps": [
+      {"title": "Step 1 — Where Am I? (pwd)", "text": "step1.md", "verify": "verify/verify1.sh"},
+      {"title": "Step 2 — Who Am I? (whoami)", "text": "step2.md", "verify": "verify/verify2.sh"},
+      {"title": "Step 3 — Clean Slate (clear)", "text": "step3.md", "verify": "verify/verify3.sh"},
+      {"title": "Step 4 — Practice All Together", "text": "step4.md", "verify": "verify/verify4.sh"}
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
