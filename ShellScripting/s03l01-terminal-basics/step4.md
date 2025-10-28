@@ -23,10 +23,10 @@ whoami
 clear
 ```{{exec}}
 
-### 4. Try the keyboard shortcut for clear:
+### 4. Try the complete combo:
 ```bash
-# Press Ctrl + L instead of typing clear
-```
+pwd && whoami && clear && echo "combo-mastery" > /tmp/step4_completed
+```{{exec}}
 
 ---
 

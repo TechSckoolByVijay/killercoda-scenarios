@@ -1,10 +1,16 @@
 #!/bin/bash
 # Verify: pwd command execution
-# For step 1, we'll be more generous since this is just about understanding the command
+# Check if user ran the pwd command by looking for the completion marker
 
-# Check if user has executed commands (basic check)
-echo "✅ Great! You've learned about the pwd command."
-echo "📍 Your current location is: $(pwd)"
-echo "🎯 You now understand how to find your location in Linux!"
-echo "done"
-exit 0
+if [ -f "/tmp/step1_completed" ]; then
+    echo "✅ Excellent! You've successfully used the pwd command."
+    echo "📍 You discovered your location: $(pwd)"
+    echo "🎯 You now know how to find your way in Linux!"
+    echo "done"
+    exit 0
+else
+    echo "❌ Please run the pwd command using the executable code block above."
+    echo "💡 Hint: Click the 'pwd && echo...' command to execute it"
+    echo "🔄 This will show your current directory and mark the step as complete"
+    exit 1
+fi
