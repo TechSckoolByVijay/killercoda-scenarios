@@ -10,16 +10,29 @@ Let's create, manage, and view files like a pro! 📁
 
 **Task**: Create a directory called `myproject`, navigate into it, and create three empty files: `readme.txt`, `main.py`, and `config.json`.
 
-```bash
-# Your answer here (multiple commands):
-
-
-
-
-```{{exec}}
+**💡 Instructions**: Type your commands in the terminal, or reveal the answer below:
 
 <details>
-<summary>💡 Click for Hint</summary>
+<summary>🎯 Click to see the correct answer</summary>
+
+```bash
+mkdir myproject
+```{{exec}}
+
+```bash
+cd myproject
+```{{exec}}
+
+```bash
+touch readme.txt main.py config.json
+```{{exec}}
+
+**Explanation**: `mkdir` creates the directory, `cd` navigates into it, and `touch` creates multiple empty files at once.
+
+</details>
+
+<details>
+<summary>💡 Need a Hint First?</summary>
 
 Use `mkdir myproject` to create the directory, `cd myproject` to enter it, then `touch readme.txt main.py config.json` to create all three files at once.
 
@@ -33,19 +46,31 @@ Use `mkdir myproject` to create the directory, `cd myproject` to enter it, then 
 
 **Task**: Add some text to `readme.txt` and display its contents.
 
-```bash
-# Add content (you can use this):
-echo "This is my awesome project!" > readme.txt
-echo "It will change the world!" >> readme.txt
-
-# Now display the file contents:
-
-```{{exec}}
+**💡 Instructions**: First add content, then view it. Or reveal the answer below:
 
 <details>
-<summary>💡 Click for Hint</summary>
+<summary>🎯 Click to see the correct answer</summary>
 
-Use `cat` followed by the filename to display the entire contents of the file. The `cat` command is perfect for viewing complete files.
+```bash
+echo "This is my awesome project!" > readme.txt
+```{{exec}}
+
+```bash
+echo "It will change the world!" >> readme.txt
+```{{exec}}
+
+```bash
+cat readme.txt
+```{{exec}}
+
+**Explanation**: `echo` with `>` creates/overwrites the file, `>>` appends to it, and `cat` displays the complete contents.
+
+</details>
+
+<details>
+<summary>💡 Need a Hint First?</summary>
+
+Use `echo "text" > filename` to add content, then use `cat` followed by the filename to display the entire contents of the file.
 
 </details>
 
@@ -57,8 +82,13 @@ Use `cat` followed by the filename to display the entire contents of the file. T
 
 **Task**: Create a sample log file with multiple lines, then view just the first 3 lines and the last 3 lines.
 
+**💡 Instructions**: Use the setup provided, then add your viewing commands:
+
+<details>
+<summary>🎯 Click to see the correct answer</summary>
+
+First, create the sample log file:
 ```bash
-# Create sample log file:
 cat > large_log.txt << EOF
 Line 1: System started
 Line 2: Loading configuration  
@@ -71,15 +101,24 @@ Line 8: Processing requests
 Line 9: Performance optimal
 Line 10: All systems operational
 EOF
-
-# View first 3 lines:
-
-# View last 3 lines:
-
 ```{{exec}}
 
+View first 3 lines:
+```bash
+head -3 large_log.txt
+```{{exec}}
+
+View last 3 lines:
+```bash
+tail -3 large_log.txt
+```{{exec}}
+
+**Explanation**: `head -3` shows the first 3 lines and `tail -3` shows the last 3 lines. These commands are essential for log file analysis.
+
+</details>
+
 <details>
-<summary>💡 Click for Hint</summary>
+<summary>💡 Need a Hint First?</summary>
 
 Use `head -3 filename` to see the first 3 lines and `tail -3 filename` to see the last 3 lines. These commands are essential for log file analysis.
 
@@ -93,13 +132,21 @@ Use `head -3 filename` to see the first 3 lines and `tail -3 filename` to see th
 
 **Task**: Search for all lines containing the word "System" in the log file created above.
 
-```bash
-# Your answer here:
-
-```{{exec}}
+**💡 Instructions**: Type your command in the terminal, or reveal the answer below:
 
 <details>
-<summary>💡 Click for Hint</summary>
+<summary>🎯 Click to see the correct answer</summary>
+
+```bash
+grep "System" large_log.txt
+```{{exec}}
+
+**Explanation**: `grep "System" filename` searches for lines containing "System". grep is your search ninja tool for finding text patterns in files.
+
+</details>
+
+<details>
+<summary>💡 Need a Hint First?</summary>
 
 Use `grep "System" filename` to search for lines containing "System". grep is your search ninja tool for finding text patterns in files.
 

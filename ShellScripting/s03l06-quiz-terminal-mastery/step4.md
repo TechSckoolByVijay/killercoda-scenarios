@@ -4,101 +4,103 @@ Final boss level! Combine everything you've learned! 🔥
 
 ---
 
-## 📝 Question 13: Real-World Scenario - System Administration
+## 📝 Question 13: File Permissions & Information
 
-**Scenario**: You're a system administrator who needs to:
-1. Check the system logs for any error messages
-2. Create a backup directory structure  
-3. Document your findings
+**Scenario**: You need to check file permissions and get detailed information about files.
 
-**Task**: Complete this multi-step challenge:
+**Task**: Display detailed information about all files in the current directory, including permissions, sizes, and timestamps.
 
-```bash
-# Step 1: Navigate to /var/log and find files containing "error" (case-insensitive)
-# Use ls to see what log files exist, then search for errors
-
-# Step 2: Create a backup structure in /tmp/backup/logs/
-
-# Step 3: Create a report file called findings.txt with your current location and timestamp
-
-# Your solution:
-
-
-
-
-```{{exec}}
+**💡 Instructions**: Type your command in the terminal, or reveal the answer below:
 
 <details>
-<summary>💡 Click for Hint</summary>
+<summary>🎯 Click to see the correct answer</summary>
 
-1. Use `cd /var/log && ls` to see log files, then `grep -i error *.log` or similar to search
-2. Use `mkdir -p /tmp/backup/logs` for directory creation
-3. Use `echo "Report generated from $(pwd) at $(date)" > findings.txt`
+```bash
+ls -la
+```{{exec}}
 
-Combine navigation, file creation, searching, and documentation skills!
+**Explanation**: `ls -la` shows detailed information (`-l`) including hidden files (`-a`). This displays permissions, ownership, size, and modification times.
+
+</details>
+
+<details>
+<summary>💡 Need a Hint First?</summary>
+
+Use `ls -la` to see detailed information about all files, including hidden ones. The `-l` flag gives detailed info, and `-a` shows all files including hidden ones.
 
 </details>
 
 ---
 
-## 📝 Question 14: Master Challenge - Log Analysis Pipeline
+## 📝 Question 14: Advanced Navigation
 
-**Scenario**: You're debugging a production issue and need to analyze log files efficiently.
+**Scenario**: You're deep in directories and need to quickly navigate and track your path.
 
-**Task**: Create a complete log analysis workflow:
+**Task**: Go back to your home directory, confirm your location, then return to the project directory using the path you were just in.
 
-```bash
-# First, create a sample application log:
-cat > app.log << EOF
-2024-01-01 10:00:01 INFO Application started
-2024-01-01 10:00:02 INFO Database connected
-2024-01-01 10:00:03 ERROR Failed to load config file
-2024-01-01 10:00:04 WARN Retrying connection
-2024-01-01 10:00:05 INFO Config loaded successfully
-2024-01-01 10:00:06 ERROR User authentication failed
-2024-01-01 10:00:07 INFO Request processed
-2024-01-01 10:00:08 ERROR Database timeout
-2024-01-01 10:00:09 INFO System recovered
-2024-01-01 10:00:10 INFO Application healthy
-EOF
-
-# Now complete these tasks:
-# 1. Count total lines in the log
-# 2. Find all ERROR lines
-# 3. Find all lines from the last 5 entries
-# 4. Create a summary report showing: total lines, error count, and recent activity
-
-# Your complete solution:
-
-
-
-
-
-```{{exec}}
+**💡 Instructions**: Type your commands in the terminal, or reveal the answer below:
 
 <details>
-<summary>💡 Click for Hint</summary>
+<summary>🎯 Click to see the correct answer</summary>
 
-1. Use `wc -l app.log` to count lines
-2. Use `grep ERROR app.log` to find errors  
-3. Use `tail -5 app.log` for recent entries
-4. Combine with commands like: `echo "Total lines: $(wc -l < app.log), Errors: $(grep -c ERROR app.log)"`
+Go to home directory:
+```bash
+cd ~
+```{{exec}}
 
-This tests file creation, content analysis, searching, filtering, and reporting - the complete toolkit!
+Confirm current location:
+```bash
+pwd
+```{{exec}}
+
+Return to project (replace with your actual path if different):
+```bash
+cd ~/myproject
+```{{exec}}
+
+Confirm you're back:
+```bash
+pwd
+```{{exec}}
+
+**Explanation**: `cd ~` takes you home, `pwd` shows your current path, and `cd ~/myproject` uses the absolute path to return to your project directory.
+
+</details>
+
+<details>
+<summary>💡 Need a Hint First?</summary>
+
+Use `cd ~` to go home, `pwd` to see where you are, then `cd` with the path to get back. The `~` symbol represents your home directory.
 
 </details>
 
 ---
 
-## 🎯 Final Challenge Complete!
+## � Congratulations! Quiz Complete!
 
-You've tackled real-world scenarios that combine:
-- Navigation and file system exploration
-- File creation and content management  
-- Search and filtering techniques
-- Documentation and reporting
-- Command chaining and automation
+You've successfully completed the Terminal Mastery Quiz! Here's what you've learned:
 
-Click **Check** to see your final Terminal Mastery results!
+### 🎯 Skills Mastered:
+- **Basic Navigation**: `pwd`, `ls`, `cd`
+- **File Operations**: `touch`, `mkdir`, `cat`, `echo`
+- **File Viewing**: `head`, `tail`, `more`, `less`
+- **Search & Filter**: `grep`, `find`
+- **System Information**: `whoami`, `date`, `cal`
+- **File Details**: `ls -la` for permissions and info
+- **Path Management**: Home directory (`~`) and absolute/relative paths
 
-**Advanced skills demonstrated**: Complex workflows, piping, command substitution, real-world problem solving
+### 🚀 Next Steps:
+1. Practice these commands daily
+2. Try combining commands with pipes (`|`)
+3. Learn about file permissions and `chmod`
+4. Explore advanced `grep` patterns
+5. Practice shell scripting basics
+
+### 💡 Pro Tips:
+- Use **Tab completion** to speed up typing
+- Use **arrow keys** to navigate command history
+- Use **Ctrl+C** to cancel running commands
+- Use **clear** to clean up your terminal
+- Remember: practice makes perfect!
+
+**Keep exploring and happy scripting!** 🐧✨

@@ -10,15 +10,23 @@ Time to explore the Linux filesystem! 🧭
 
 **Task**: List all files (including hidden) with detailed info and readable sizes.
 
-```bash
-# Your answer here:
-
-```{{exec}}
+**💡 Instructions**: Type your command in the terminal, or reveal the answer below:
 
 <details>
-<summary>💡 Click for Hint</summary>
+<summary>🎯 Click to see the correct answer</summary>
 
-Use `ls` with three flags: `-l` for long format, `-a` for all files (including hidden), and `-h` for human-readable sizes. You can combine them as `-lah` or `-la -h`.
+```bash
+ls -lah
+```{{exec}}
+
+**Explanation**: `ls -lah` combines three flags: `-l` (long format), `-a` (all files including hidden), `-h` (human-readable sizes).
+
+</details>
+
+<details>
+<summary>💡 Need a Hint First?</summary>
+
+Use `ls` with three flags: `-l` for long format, `-a` for all files (including hidden), and `-h` for human-readable sizes. You can combine them as `-lah`.
 
 </details>
 
@@ -30,14 +38,25 @@ Use `ls` with three flags: `-l` for long format, `-a` for all files (including h
 
 **Task**: Navigate to the root directory and list its contents.
 
-```bash
-# Your answer here (use two commands):
-
-
-```{{exec}}
+**💡 Instructions**: Type your commands in the terminal, or reveal the answer below:
 
 <details>
-<summary>💡 Click for Hint</summary>
+<summary>🎯 Click to see the correct answer</summary>
+
+```bash
+cd /
+```{{exec}}
+
+```bash
+ls
+```{{exec}}
+
+**Explanation**: `cd /` navigates to the root directory (the top level of the filesystem), then `ls` shows what's there.
+
+</details>
+
+<details>
+<summary>💡 Need a Hint First?</summary>
 
 First use `cd` with `/` to go to root, then use `ls` to see what's there. The root directory is the top level of the Linux filesystem.
 
@@ -47,24 +66,27 @@ First use `cd` with `/` to go to root, then use `ls` to see what's there. The ro
 
 ## 📝 Question 7: Relative Navigation
 
-**Scenario**: You're currently in `/home/user/documents/projects` and want to go to `/home/user/downloads` using relative path navigation.
+**Scenario**: You're currently in a deep directory path and want to go up two levels using relative path navigation.
 
-**Task**: Navigate to the downloads directory using relative paths (not absolute).
+**Task**: Navigate up two directory levels using relative paths.
 
-```bash
-# First, let's set up the scenario:
-mkdir -p /tmp/quiz/documents/projects /tmp/quiz/downloads
-cd /tmp/quiz/documents/projects
-pwd
-
-# Now your task - navigate to downloads using relative path:
-
-```{{exec}}
+**💡 Instructions**: Type your command in the terminal, or reveal the answer below:
 
 <details>
-<summary>💡 Click for Hint</summary>
+<summary>🎯 Click to see the correct answer</summary>
 
-You need to go up two levels (`../..`) to reach `/tmp/quiz`, then down into `downloads`. Use `cd ../../downloads`.
+```bash
+cd ../..
+```{{exec}}
+
+**Explanation**: `../..` means "go up one level (`..`), then up another level (`..`)". This is relative path navigation.
+
+</details>
+
+<details>
+<summary>💡 Need a Hint First?</summary>
+
+You need to go up two levels (`../..`) from your current location. Use `cd ../../` to navigate relatively.
 
 </details>
 
@@ -74,17 +96,25 @@ You need to go up two levels (`../..`) to reach `/tmp/quiz`, then down into `dow
 
 **Scenario**: You're in `/var/log` and want to see the 5 most recently modified log files.
 
-**Task**: Show the 5 newest files in `/var/log` with timestamps.
+**Task**: Show the 5 newest files with timestamps, sorted by modification time.
 
-```bash
-# Your answer here:
-
-```{{exec}}
+**💡 Instructions**: Type your command in the terminal, or reveal the answer below:
 
 <details>
-<summary>💡 Click for Hint</summary>
+<summary>🎯 Click to see the correct answer</summary>
 
-Use `ls` with `-lt` for long format sorted by time, then pipe to `head -5` to show only the first 5. Or use `ls -lth | head -5` for human-readable sizes too.
+```bash
+cd /var/log && ls -lht | head -5
+```{{exec}}
+
+**Explanation**: `cd /var/log` goes to the log directory, `ls -lht` lists files in long format (`-l`), human-readable (`-h`), sorted by time (`-t`), and `head -5` shows only the first 5 entries.
+
+</details>
+
+<details>
+<summary>💡 Need a Hint First?</summary>
+
+Use `cd /var/log` to get there, then `ls` with `-lt` for long format sorted by time, pipe to `head -5` to show only the first 5. Add `-h` for human-readable sizes.
 
 </details>
 
