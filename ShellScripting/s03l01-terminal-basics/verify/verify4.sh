@@ -1,27 +1,20 @@
 #!/bin/bash
-# Validation: Smart detection for combo command
+# Validation: Actually check if combo commands were executed
 
-if [ -f "/tmp/step4_done" ]; then
-    echo "🎉 Outstanding! You've mastered the terminal basics combo!"
-    echo "🎯 You can now navigate, identify, and clean like a pro!"
-    echo "💪 These foundational skills will serve you throughout your Linux journey!"
-    echo "🚀 Ready for more advanced commands? Let's go!"
-    echo "done"
-    exit 0
-fi
-
-# Smart validation - if they're this far, they're engaged
-if [ -t 0 ] || [ -n "$BASH_VERSION" ] || [ -n "$PS1" ]; then
-    echo "step4_done" > /tmp/step4_done
-    echo "🎉 Outstanding! You've mastered the terminal basics combo!"
+# Check bash history for any of the combo commands
+if (history | grep -q "pwd.*whoami.*clear\|pwd.*whoami\|whoami.*clear" 2>/dev/null) || \
+   (tail -20 ~/.bash_history 2>/dev/null | grep -q "pwd.*whoami.*clear\|pwd.*whoami\|whoami.*clear") || \
+   (history | grep -q "pwd" && history | grep -q "whoami" && history | grep -q "clear" 2>/dev/null); then
+    
+    echo "🎉 Outstanding! You've executed the terminal basics combo!"
     echo "🎯 You can now navigate, identify, and clean like a pro!"
     echo "💪 These foundational skills will serve you throughout your Linux journey!"
     echo "🚀 Ready for more advanced commands? Let's go!"
     echo "done"
     exit 0
 else
-    echo "❌ Please run the combo command using the executable code block above."
-    echo "💡 Click the highlighted combo command to execute it"
-    echo "🔄 This will run pwd, whoami, and clear in sequence"
+    echo "❌ Please execute the combo command using the code block above."
+    echo "💡 Click the 'pwd && whoami && clear' command to run it"
+    echo "🔄 This will run all three commands in sequence"
     exit 1
 fi
