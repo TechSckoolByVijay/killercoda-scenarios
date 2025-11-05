@@ -28,6 +28,10 @@ clear
 pwd && whoami && clear
 ```{{exec}}
 
+```bash
+touch /tmp/step4_done
+```{{exec}}
+
 ---
 
 ## 🎯 What You've Mastered

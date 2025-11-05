@@ -1,25 +1,16 @@
 #!/bin/bash
-# Verify: whoami command execution
+# Simple validation: Check if completion marker exists
 
-# Check if whoami appears in recent history
-if tail -20 ~/.bash_history 2>/dev/null | grep -q "whoami" || \
-   history 2>/dev/null | tail -20 | grep -q "whoami" || \
-   [ -f "/tmp/step2_completed" ]; then
-    
-    # Mark as completed
-    echo "whoami-executed" > /tmp/step2_completed
-    current_user=$(whoami)
-    
-    echo "✅ Perfect! You've discovered your Linux identity."
-    echo "🆔 You are logged in as: $current_user"
-    echo "🎯 You now understand user identification in Linux!"
+if [ -f "/tmp/step2_done" ]; then
+    echo "✅ Excellent! You've identified yourself in Linux."
+    echo "👤 You are: $(whoami)"
+    echo "🎯 Understanding user identity is crucial for system security!"
     echo "done"
     exit 0
 else
-    echo "❌ Please run the whoami command using the executable code block above."
-    echo "💡 Hint: Click the 'whoami' command to execute it"
-    echo "🔄 This will show your username"
-    echo ""
-    echo "📌 Make sure to execute the command in the terminal!"
+    echo "❌ Please run both commands above:"
+    echo "  1. whoami (to see your username)"
+    echo "  2. touch /tmp/step2_done (to mark completion)"
+    echo "� Click both executable code blocks in order"
     exit 1
 fi

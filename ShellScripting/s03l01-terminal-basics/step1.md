@@ -6,8 +6,14 @@ Imagine you've just opened the terminal and you're wondering: **"Where am I righ
 
 ## The Command: pwd
 
+Try the pwd command and then mark it complete:
+
 ```bash
 pwd
+```{{exec}}
+
+```bash
+touch /tmp/step1_done
 ```{{exec}}
 
 **pwd** stands for **Print Working Directory** - it simply tells you your current location in Linux.
