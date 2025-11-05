@@ -7,7 +7,7 @@ Now that you know **where** you are, let's find out **who** you are in the Linux
 ## The Command: whoami
 
 ```bash
-whoami; echo "step2_done" > /tmp/step2_done
+whoami
 ```{{exec}}
 
 ---
