@@ -1,25 +1,32 @@
 #!/bin/bash
-# Verify: Terminal basics mastery
+# Verify: combo command execution required
 
-echo "🎉 CONGRATULATIONS! You've mastered terminal basics!"
-echo ""
-echo "🏆 Skills Unlocked:"
-echo "   📍 pwd - Your Linux GPS"
-echo "   👤 whoami - Your digital identity"
-echo "   🧹 clear - Your screen cleaner"
-echo "   ⚡ Command chaining - Power user moves!"
-echo ""
-echo "🎯 The Terminal Basics Triangle:"
-echo "   1. Where am I? (pwd)"
-echo "   2. Who am I? (whoami)"
-echo "   3. Clean slate? (clear)"
-echo ""
-echo "📍 Current demo:"
-echo "   Location: $(pwd)"
-echo "   User: $(whoami)"
-echo "   Ready for: Next level commands!"
-echo ""
-echo "🚀 You're ready to explore more advanced Linux commands!"
-echo "🎓 Terminal Basics Badge Earned!"
-echo "done"
-exit 0
+if [ -f "/tmp/combo_completed" ]; then
+    echo "🎉 CONGRATULATIONS! You've mastered terminal basics!"
+    echo ""
+    echo "🏆 Skills Unlocked:"
+    echo "   📍 pwd - Your Linux GPS"
+    echo "   👤 whoami - Your digital identity"
+    echo "   🧹 clear - Your screen cleaner"
+    echo "   ⚡ Command chaining - Power user moves!"
+    echo ""
+    echo "🎯 The Terminal Basics Triangle:"
+    echo "   1. Where am I? (pwd)"
+    echo "   2. Who am I? (whoami)"
+    echo "   3. Clean slate? (clear)"
+    echo ""
+    echo "📍 Current demo:"
+    echo "   Location: $(pwd)"
+    echo "   User: $(whoami)"
+    echo "   Ready for: Next level commands!"
+    echo ""
+    echo "🚀 You're ready to explore more advanced Linux commands!"
+    echo "🎓 Terminal Basics Badge Earned!"
+    echo "done"
+    exit 0
+else
+    echo "❌ Please execute the combo command first."
+    echo "💡 Click the 'pwd && whoami && clear && touch /tmp/combo_completed' command above"
+    echo "🔄 This will run all commands AND mark mastery complete"
+    exit 1
+fi

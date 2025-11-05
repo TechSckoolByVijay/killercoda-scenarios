@@ -25,7 +25,7 @@ clear
 
 ### 4. Try the complete combo:
 ```bash
-pwd && whoami && clear
+pwd && whoami && clear && touch /tmp/combo_completed
 ```{{exec}}
 
 ---

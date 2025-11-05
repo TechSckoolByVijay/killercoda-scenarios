@@ -7,7 +7,7 @@ As you type more commands, your terminal starts looking messy - like your desk o
 ## The Command: clear
 
 ```bash
-clear
+clear && touch /tmp/clear_completed
 ```{{exec}}
 
 ---
