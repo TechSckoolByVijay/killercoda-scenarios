@@ -6,14 +6,8 @@ As you type more commands, your terminal starts looking messy - like your desk o
 
 ## The Command: clear
 
-Try the clear command and then mark it complete:
-
 ```bash
-clear
-```{{exec}}
-
-```bash
-touch /tmp/step3_done
+clear; echo "step3_done" > /tmp/step3_done
 ```{{exec}}
 
 ---

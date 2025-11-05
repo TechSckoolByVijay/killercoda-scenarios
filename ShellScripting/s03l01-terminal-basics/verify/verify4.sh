@@ -1,5 +1,5 @@
 #!/bin/bash
-# Simple validation: Check if completion marker exists
+# Validation: Check if student executed the combo command
 
 if [ -f "/tmp/step4_done" ]; then
     echo "🎉 Outstanding! You've mastered the terminal basics combo!"
@@ -9,9 +9,8 @@ if [ -f "/tmp/step4_done" ]; then
     echo "done"
     exit 0
 else
-    echo "❌ Please run both commands above:"
-    echo "  1. pwd && whoami && clear (the complete combo)"
-    echo "  2. touch /tmp/step4_done (to mark completion)"
-    echo "💡 Click both executable code blocks in order"
+    echo "❌ Please run the combo command using the executable code block above."
+    echo "💡 Click the highlighted combo command to execute it"
+    echo "� This will run pwd, whoami, and clear in sequence"
     exit 1
 fi

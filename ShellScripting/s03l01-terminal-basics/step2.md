@@ -6,14 +6,8 @@ Now that you know **where** you are, let's find out **who** you are in the Linux
 
 ## The Command: whoami
 
-Try the whoami command and then mark it complete:
-
 ```bash
-whoami
-```{{exec}}
-
-```bash
-touch /tmp/step2_done
+whoami; echo "step2_done" > /tmp/step2_done
 ```{{exec}}
 
 ---

@@ -25,11 +25,7 @@ clear
 
 ### 4. Try the complete combo:
 ```bash
-pwd && whoami && clear
-```{{exec}}
-
-```bash
-touch /tmp/step4_done
+pwd && whoami && clear; echo "step4_done" > /tmp/step4_done
 ```{{exec}}
 
 ---

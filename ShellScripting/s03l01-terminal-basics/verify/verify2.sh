@@ -1,5 +1,5 @@
 #!/bin/bash
-# Simple validation: Check if completion marker exists
+# Validation: Check if student executed the whoami command
 
 if [ -f "/tmp/step2_done" ]; then
     echo "✅ Excellent! You've identified yourself in Linux."
@@ -8,9 +8,8 @@ if [ -f "/tmp/step2_done" ]; then
     echo "done"
     exit 0
 else
-    echo "❌ Please run both commands above:"
-    echo "  1. whoami (to see your username)"
-    echo "  2. touch /tmp/step2_done (to mark completion)"
-    echo "� Click both executable code blocks in order"
+    echo "❌ Please run the whoami command using the executable code block above."
+    echo "💡 Click the highlighted 'whoami' command to execute it"
+    echo "🔄 This will show your username"
     exit 1
 fi
