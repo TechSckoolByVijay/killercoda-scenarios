@@ -7,7 +7,7 @@ Imagine you've just opened the terminal and you're wondering: **"Where am I righ
 ## The Command: pwd
 
 ```bash
-pwd && echo "pwd-executed" > /tmp/step1_completed
+pwd
 ```{{exec}}
 
 **pwd** stands for **Print Working Directory** - it simply tells you your current location in Linux.

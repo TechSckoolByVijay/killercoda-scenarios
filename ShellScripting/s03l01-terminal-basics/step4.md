@@ -25,7 +25,7 @@ clear
 
 ### 4. Try the complete combo:
 ```bash
-pwd && whoami && clear && echo "combo-mastery" > /tmp/step4_completed
+pwd && whoami && clear
 ```{{exec}}
 
 ---
