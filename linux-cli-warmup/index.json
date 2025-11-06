@@ -6,11 +6,16 @@
   "backend": { "imageid": "ubuntu" },
   "environment": { "uilayout": "terminal" },
   "details": {
+    "intro": {
+      "title": "Welcome",
+      "text": "intro.md",
+      "background": "intro/background.sh",
+      "foreground": "intro/foreground.sh"
+    },
     "steps": [
       { "title": "Basics: pwd, whoami, cd", "text": "step1.md" },
       { "title": "List & Sort Files with ls", "text": "step2.md" }
     ]
   },
-  "intro": { "text": "intro.md" },
   "finish": { "text": "finish.md" }
 }
