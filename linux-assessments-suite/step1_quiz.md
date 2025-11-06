@@ -2,6 +2,14 @@
 
 Test your Linux command knowledge through hands-on exploration!
 
+## 🔧 Quick Setup (if needed)
+
+If the demo directory doesn't exist, create it manually:
+
+```bash
+mkdir -p ~/demo/reports ~/demo/projects && cd ~/demo && echo "alpha content" > alpha.txt && echo "beta content" > beta.log && echo "This is report1 content" > reports/report1.txt
+```{{exec}}
+
 ---
 
 ### 🎯 Challenge 1: File Listing Discovery

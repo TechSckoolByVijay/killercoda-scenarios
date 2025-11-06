@@ -6,26 +6,18 @@
   "backend": { "imageid": "ubuntu" },
   "environment": { "uilayout": "terminal" },
   "details": {
+    "intro": {
+      "title": "Welcome",
+      "text": "intro.md",
+      "background": "intro/background.sh",
+      "foreground": "intro/foreground.sh"
+    },
     "steps": [
       { "title": "Interactive Command Discovery", "text": "step1_quiz.md" },
       { "title": "Practical: ls/pwd/cd", "text": "step2_practical.md", "verify": "scripts/verify/step2-verify.sh" },
       { "title": "Randomized Lab Task", "text": "step3_randomized.md", "verify": "scripts/verify/step3-verify.sh" },
       { "title": "Terminal-Only Final Exam", "text": "step4_final_exam.md", "verify": "scripts/verify/final-verify.sh" }
-    ],
-    "assets": {
-      "host01": [
-        { "file": "assets/sample-data.txt", "target": "/opt/assets/sample-data.txt" },
-        { "file": "scripts/init.sh", "target": "/tmp/init.sh" },
-        { "file": "scripts/foreground.sh", "target": "/tmp/foreground.sh" }
-      ]
-    },
-    "init": {
-      "host01": "/tmp/init.sh"
-    },
-    "foreground": {
-      "host01": "/tmp/foreground.sh"
-    }
+    ]
   },
-  "intro": { "text": "intro.md" },
   "finish": { "text": "finish.md" }
 }
