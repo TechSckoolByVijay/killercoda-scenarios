@@ -1,0 +1,22 @@
+{
+  "title": "S01L01: Terminal Basics - pwd, whoami, clear",
+  "description": "Master the essential Linux commands: pwd (where am I?), whoami (who am I?), and clear (clean screen). Your first conversation with Linux!",
+  "difficulty": "beginner",
+  "time": "8 minutes",
+  "backend": { "imageid": "ubuntu" },
+  "environment": { "uilayout": "terminal" },
+  "details": {
+    "intro": {
+      "title": "Welcome to Linux Terminal",
+      "text": "intro.md",
+      "background": "intro/background.sh",
+      "foreground": "intro/foreground.sh"
+    },
+    "steps": [
+      { "title": "Where Am I? (pwd)", "text": "step1.md" },
+      { "title": "Who Am I? (whoami)", "text": "step2.md" },
+      { "title": "Clean Screen (clear)", "text": "step3.md" }
+    ]
+  },
+  "finish": { "text": "finish.md" }
+}

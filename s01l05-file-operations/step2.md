@@ -1,0 +1,278 @@
+# Step 2 — Move & Rename (mv) 🚚
+
+Excellent work with copying! Now let's master **moving and renaming** files with the versatile `mv` command — your digital moving truck!
+
+## The Move Command - Organize Like a Pro
+
+`mv` is unique because it handles **both moving AND renaming**. Think of it as **cutting and pasting** with precision control!
+
+---
+
+## 1. Basic File Renaming
+
+Let's start by renaming a file. First, let's see what we have:
+
+```bash
+cd ~/file-ops-lab/projects/webapp
+```{{exec}}
+
+```bash
+ls -lah
+```{{exec}}
+
+Now let's rename our backup config file:
+
+```bash
+mv prod.config.backup production-backup.config
+```{{exec}}
+
+```bash
+ls -lah
+```{{exec}}
+
+🎯 **File renamed!** Notice the original file is **gone** — it was moved to the new name.
+
+---
+
+## 2. Move Files Between Directories
+
+Let's move our config files to the config directory where they belong:
+
+```bash
+mv dev.config config/development.config
+```{{exec}}
+
+```bash
+mv test.config config/testing.config
+```{{exec}}
+
+```bash
+ls -lah
+```{{exec}}
+
+```bash
+ls -lah config/
+```{{exec}}
+
+Perfect! Files were **moved and renamed** in one operation!
+
+---
+
+## 3. Move Multiple Files
+
+You can move several files at once:
+
+```bash
+cd ~/file-ops-lab
+```{{exec}}
+
+Let's organize our temp files:
+
+```bash
+ls -lah temp/
+```{{exec}}
+
+```bash
+mv temp/*.cache temp/*.log archive/
+```{{exec}}
+
+```bash
+ls -lah archive/
+```{{exec}}
+
+```bash
+ls -lah temp/
+```{{exec}}
+
+Great! Multiple files moved efficiently to organize our workspace.
+
+---
+
+## 4. Move and Rename Directories
+
+Let's reorganize our project structure:
+
+```bash
+ls -lah projects/
+```{{exec}}
+
+```bash
+mv projects/mobile-app projects/mobile-application
+```{{exec}}
+
+```bash
+ls -lah projects/
+```{{exec}}
+
+🎯 **Entire directory renamed!** This is incredibly useful for project organization.
+
+---
+
+## 5. Move Files with Pattern Matching
+
+Let's move all script files to a better location:
+
+```bash
+cd projects
+```{{exec}}
+
+```bash
+ls -lah scripts/
+```{{exec}}
+
+```bash
+mv scripts/*.sh webapp/
+```{{exec}}
+
+```bash
+mv scripts/*.py mobile-application/
+```{{exec}}
+
+```bash
+ls -lah webapp/
+```{{exec}}
+
+```bash
+ls -lah mobile-application/
+```{{exec}}
+
+Excellent! Files moved based on their **file extensions**.
+
+---
+
+## 6. Organize Project Structure
+
+Let's create a more logical project organization:
+
+```bash
+cd ~/file-ops-lab
+```{{exec}}
+
+```bash
+mkdir -p projects/webapp/scripts
+```{{exec}}
+
+```bash
+mv projects/webapp/*.sh projects/webapp/scripts/
+```{{exec}}
+
+```bash
+ls -lah projects/webapp/scripts/
+```{{exec}}
+
+Perfect! Now our scripts are properly organized.
+
+---
+
+## 7. Cleanup and Reorganization
+
+Let's clean up our temp directory by moving useful files:
+
+```bash
+ls -lah temp/
+```{{exec}}
+
+```bash
+mv temp/uploads/*.txt archive/
+```{{exec}}
+
+```bash
+ls -lah archive/
+```{{exec}}
+
+Great! Files moved from temp storage to permanent archive.
+
+---
+
+## 8. Professional Workflow Example
+
+Let's simulate a real-world project organization task:
+
+```bash
+# Create proper directory structure
+mkdir -p projects/webapp/{assets,public,private}
+```{{exec}}
+
+```bash
+# Move files to appropriate locations
+mv projects/webapp/production-backup.config projects/webapp/private/
+```{{exec}}
+
+```bash
+ls -lah projects/webapp/private/
+```{{exec}}
+
+🎯 **Professional organization complete!** Sensitive files moved to private directory.
+
+---
+
+## 9. Batch Organization with mv
+
+Let's organize all our configuration files:
+
+```bash
+cd projects/webapp/config
+```{{exec}}
+
+```bash
+ls -lah
+```{{exec}}
+
+```bash
+# Move all .yml files to a subdirectory
+mkdir -p yaml-configs
+```{{exec}}
+
+```bash
+mv *.yml yaml-configs/
+```{{exec}}
+
+```bash
+ls -lah yaml-configs/
+```{{exec}}
+
+Perfect! All YAML configuration files are now organized together.
+
+---
+
+## 🎯 Move Command Summary
+
+### Basic Move/Rename Operations
+- `mv oldname newname` → Rename file or directory
+- `mv file directory/` → Move file to directory
+- `mv file1 file2 file3 directory/` → Move multiple files
+
+### Advanced Organization
+- `mv *.txt documents/` → Move by file pattern
+- `mv dir1/ dir2/newname/` → Move and rename directory
+- `mv path/file .` → Move file to current directory
+
+## 💡 Key Differences: cp vs mv
+
+### Copy (cp)
+- **Creates duplicates** — original stays
+- **Safe for backups** — no data loss risk
+- **Disk space usage** — requires space for copies
+
+### Move (mv)
+- **Relocates files** — original disappears
+- **Efficient organization** — no disk space duplication
+- **Rename capability** — same command for both operations
+
+## 🔧 Real-World Scenarios
+
+### Project Organization
+- **Rename releases:** `mv v1.0/ release-1.0/`
+- **Organize by type:** `mv *.css assets/styles/`
+- **Clean up downloads:** `mv ~/Downloads/*.pdf ~/Documents/`
+
+### System Administration
+- **Log rotation:** `mv current.log archived-$(date +%Y%m%d).log`
+- **Config updates:** `mv nginx.conf nginx.conf.old`
+- **User management:** `mv /home/olduser/ /home/newuser/`
+
+## ⚠️ Important Safety Note
+
+**Remember:** `mv` **removes** the original file/directory from its old location. Always double-check your command before hitting Enter, especially when moving important files!
+
+Ready to learn **safe deletion practices** and **powerful file finding** techniques? Click **Next**!
