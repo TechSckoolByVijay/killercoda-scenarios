@@ -2,6 +2,14 @@
 
 Welcome to your Linux CLI adventure! Let's start with the essential commands that every Linux user needs to know.
 
+## 🔧 Setup Check (Run if needed)
+
+If the demo directory doesn't exist, run this setup command first:
+
+```bash
+bash /tmp/create-files.sh
+```{{exec}}
+
 ## 1. Where Am I? (pwd)
 
 First, let's find out your current location in the file system:

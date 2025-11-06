@@ -12,8 +12,16 @@
     ],
     "assets": {
       "host01": [
-        { "file": "assets/create-files.sh", "target": "/tmp/create-files.sh" }
+        { "file": "assets/create-files.sh", "target": "/tmp/create-files.sh" },
+        { "file": "scripts/init.sh", "target": "/tmp/init.sh" },
+        { "file": "scripts/foreground.sh", "target": "/tmp/foreground.sh" }
       ]
+    },
+    "init": {
+      "host01": "/tmp/init.sh"
+    },
+    "foreground": {
+      "host01": "/tmp/foreground.sh"
     }
   },
   "intro": { "text": "intro.md" },
