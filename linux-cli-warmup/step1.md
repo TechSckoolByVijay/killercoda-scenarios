@@ -1,30 +1,81 @@
-## Step 1 — Basics
+# Step 1 — Terminal Basics & Navigation 🎯
 
-1. Show where you are:
-   ```bash
-   pwd
-   ```
+Welcome to your Linux CLI adventure! Let's start with the essential commands that every Linux user needs to know.
 
-2. Who are you?
-   ```bash
-   whoami
-   ```
+## 1. Where Am I? (pwd)
 
-3. Go to the demo directory:
-   ```bash
-   cd ~/demo
-   ```
+First, let's find out your current location in the file system:
 
-4. List the current directory:
-   ```bash
-   ls -l
-   ```
+```bash
+pwd
+```{{exec}}
 
-5. Peek inside the `reports` subdirectory:
-   ```bash
-   cd reports
-   ls -l
-   cd ..
-   ```
+**pwd** stands for **Print Working Directory** - it shows you exactly where you are in the Linux file system.
 
-When you're comfortable, click **Next**.
+---
+
+## 2. Who Am I? (whoami)
+
+Now let's discover your current user identity:
+
+```bash
+whoami
+```{{exec}}
+
+This command tells you which user account you're currently using.
+
+---
+
+## 3. Navigate to Demo Directory
+
+Let's move to our practice directory where files are waiting for you:
+
+```bash
+cd ~/demo
+```{{exec}}
+
+The `~` symbol is a shortcut for your home directory, so `~/demo` means the demo folder in your home.
+
+---
+
+## 4. List Directory Contents
+
+Now let's see what's in our demo directory:
+
+```bash
+ls -l
+```{{exec}}
+
+The `-l` flag gives you a detailed list showing file permissions, sizes, and modification dates.
+
+---
+
+## 5. Explore Subdirectories
+
+Let's peek inside the reports folder and then come back:
+
+```bash
+cd reports
+```{{exec}}
+
+```bash
+ls -l
+```{{exec}}
+
+```bash
+cd ..
+```{{exec}}
+
+The `..` means "go up one directory level" - it's like clicking the back button.
+
+---
+
+### 🎯 What You've Learned
+
+- `pwd` - Shows your current directory
+- `whoami` - Shows your current user
+- `cd` - Changes directories 
+- `ls -l` - Lists files with details
+- `..` - Refers to the parent directory
+
+Ready for more? Click **Next** to learn about file sorting!
