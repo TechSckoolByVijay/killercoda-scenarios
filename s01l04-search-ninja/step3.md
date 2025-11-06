@@ -2,7 +2,7 @@
 
 Time to master the ultimate ninja technique - combining grep with other commands using pipes! This is where you become truly powerful! 🥷
 
-## 🔍 Question 1: Basic Pipeline Filtering
+## 🔍 Practice Exercise 1: Basic Pipeline Filtering
 
 Let's learn to filter the output of other commands - this is incredibly useful for system administration:
 
@@ -19,7 +19,7 @@ ps aux | grep -v "grep"
 
 ---
 
-## 🔍 Question 2: Chain Multiple Filters
+## 🔍 Practice Exercise 2: Chain Multiple Filters
 
 Now let's chain multiple grep commands together for surgical precision:
 
@@ -36,7 +36,7 @@ cat users.txt | grep "Premium" | grep -c "2024"
 
 ---
 
-## 🔍 Question 3: Professional Log Analysis
+## 🔍 Practice Exercise 3: Professional Log Analysis
 
 Let's put it all together with real-world log analysis techniques:
 

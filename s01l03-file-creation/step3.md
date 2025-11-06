@@ -2,7 +2,7 @@
 
 Great work! Now let's learn the precision tools that Linux professionals use every day for analyzing files! 🔍
 
-## 🔍 Question 1: Peek at File Beginnings and Endings
+## 🔍 Practice Exercise 1: Peek at File Beginnings and Endings
 
 Sometimes you only need to see the start or end of a file. Let's practice with precision viewing:
 
@@ -19,7 +19,7 @@ tail -5 documentation.txt
 
 ---
 
-## 🔍 Question 2: Count and Analyze File Properties
+## 🔍 Practice Exercise 2: Count and Analyze File Properties
 
 Let's gather statistics about your files. This is like getting a file's vital signs:
 
@@ -36,7 +36,7 @@ wc -l documentation.txt
 
 ---
 
-## 🔍 Question 3: Search for Specific Content
+## 🔍 Practice Exercise 3: Search for Specific Content
 
 Now let's learn to find specific text in files. This is like having a detective's magnifying glass:
 

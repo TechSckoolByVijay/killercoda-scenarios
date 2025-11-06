@@ -2,7 +2,7 @@
 
 Excellent! You've created your workspace structure. Now let's add some content and learn to read files like a pro! �
 
-## 🔍 Question 1: Add Content to Your Files
+## 🔍 Practice Exercise 1: Add Content to Your Files
 
 First, let's put some content into those empty files you created. This brings your files to life:
 
@@ -23,7 +23,7 @@ ls -lah *.txt
 
 ---
 
-## 🔍 Question 2: Read Your Files Instantly
+## 🔍 Practice Exercise 2: Read Your Files Instantly
 
 Now let's read the content you just created. `cat` is perfect for quick file reading:
 
@@ -40,7 +40,7 @@ cat todo.txt
 
 ---
 
-## 🔍 Question 3: Practice with Larger Files
+## 🔍 Practice Exercise 3: Practice with Larger Files
 
 Let's work with a larger file to see the difference between `cat` and `less`:
 

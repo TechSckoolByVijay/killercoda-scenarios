@@ -2,7 +2,7 @@
 
 Welcome to your Linux adventure! Let's start by getting oriented - just like when you arrive in a new city, you need to know where you are and who you are! 🧭
 
-## 🔍 Question 1: Where Am I Right Now?
+� Practice Exercise 1: Where Am I Right Now?
 
 First, let's discover your current location in the file system. Think of this like checking your GPS coordinates:
 
@@ -15,7 +15,7 @@ pwd
 
 ---
 
-## � Question 2: Who Am I in This System?
+📝 Practice Exercise 2: Who Am I in This System?
 
 Now let's find out your identity in this Linux system. Every user has a unique name:
 
@@ -28,7 +28,7 @@ whoami
 
 ---
 
-## 🔍 Question 3: Clear the Clutter for a Fresh Start
+## � Practice Exercise 3: Clear the Clutter for a Fresh Start
 
 Let's clean up your terminal screen to have a nice, clear workspace for the next commands:
 

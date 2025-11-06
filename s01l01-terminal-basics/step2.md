@@ -2,7 +2,7 @@
 
 Excellent! Now that you know where you are and who you are, let's explore your immediate surroundings and make your terminal even more user-friendly! 🌟
 
-## 🔍 Question 1: What's Around Me?
+## � Practice Exercise 1: What's Around Me?
 
 Let's see what files and folders are in your current location. This is like looking around a room to see what's there:
 
@@ -15,7 +15,7 @@ ls
 
 ---
 
-## 🔍 Question 2: Get the Full Details
+## � Practice Exercise 2: Get the Full Details
 
 Now let's get more detailed information about everything around you, including hidden files and file properties:
 
@@ -28,7 +28,7 @@ ls -lah
 
 ---
 
-## 🔍 Question 3: Check Your Full System Information
+## � Practice Exercise 3: Check Your Full System Information
 
 Let's discover more about the system you're working on. This gives you the "big picture" of your environment:
 

@@ -2,7 +2,7 @@
 
 Welcome to file creation mastery! Today you'll learn to create files and folders like a Linux pro. Think of it as building your digital workspace from scratch! 🏗️
 
-## 🔍 Question 1: Create Your First Files
+## 🔍 Practice Exercise 1: Create Your First Files
 
 Let's start by creating some empty files. This is like placing blank notebooks on your desk:
 
@@ -19,7 +19,7 @@ ls -lah *.txt
 
 ---
 
-## 🔍 Question 2: Build Your Directory Structure
+## 🔍 Practice Exercise 2: Build Your Directory Structure
 
 Now let's create some folders to organize your work. This is like adding filing cabinets to your office:
 
@@ -36,7 +36,7 @@ ls -lah
 
 ---
 
-## 🔍 Question 3: Create Complex Nested Structures
+## 🔍 Practice Exercise 3: Create Complex Nested Structures
 
 Let's build an entire project structure in one command. This is like constructing a multi-room building instantly:
 

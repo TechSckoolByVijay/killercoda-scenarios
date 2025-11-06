@@ -2,7 +2,7 @@
 
 Welcome to your search ninja training! Today you'll learn `grep` - one of Linux's most powerful tools for finding text. Think of it as your digital detective! �️
 
-## 🔍 Question 1: Your First Search Mission
+## 🔍 Practice Exercise 1: Your First Search Mission
 
 Let's start by finding specific text in a log file. This is like searching for clues in a detective story:
 
@@ -19,7 +19,7 @@ grep "ERROR" server.log
 
 ---
 
-## 🔍 Question 2: Case-Insensitive Searching
+## 🔍 Practice Exercise 2: Case-Insensitive Searching
 
 Sometimes you need to find text regardless of whether it's uppercase or lowercase. Let's practice flexible searching:
 
@@ -36,7 +36,7 @@ grep -i "error" server.log
 
 ---
 
-## 🔍 Question 3: Search Multiple Files and Count Matches
+## 🔍 Practice Exercise 3: Search Multiple Files and Count Matches
 
 Let's expand your search skills to work with multiple files and get statistics:
 

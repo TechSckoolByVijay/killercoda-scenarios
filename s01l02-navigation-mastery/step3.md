@@ -2,7 +2,7 @@
 
 Excellent! You're becoming a navigation expert. Now let's learn some advanced techniques that will make you incredibly efficient! ⚡
 
-## 🔍 Question 1: Understand Absolute vs Relative Paths
+## 🔍 Practice Exercise 1: Understand Absolute vs Relative Paths
 
 Let's learn the difference between full addresses and relative directions:
 
@@ -19,7 +19,7 @@ cd ../etc && pwd
 
 ---
 
-## 🔍 Question 2: Practice Complex Multi-Level Navigation
+## 🔍 Practice Exercise 2: Practice Complex Multi-Level Navigation
 
 Now let's practice navigating through multiple directory levels efficiently:
 
@@ -36,7 +36,7 @@ cd ../../ && pwd
 
 ---
 
-## 🔍 Question 3: Master the Professional Navigation Workflow
+## 🔍 Practice Exercise 3: Master the Professional Navigation Workflow
 
 Let's practice the complete workflow that Linux experts use every day:
 

@@ -2,7 +2,7 @@
 
 Great job exploring! Now let's learn to move around the file system like a pro. Think of `cd` as your teleportation device! ✨
 
-## 🔍 Question 1: Enter and Explore Directories
+## 🔍 Practice Exercise 1: Enter and Explore Directories
 
 Let's start by moving into one of your directories and seeing what's inside:
 
@@ -15,7 +15,7 @@ cd projects && pwd && ls
 
 ---
 
-## 🔍 Question 2: Master Navigation Shortcuts
+## 🔍 Practice Exercise 2: Master Navigation Shortcuts
 
 Now let's learn some super useful shortcuts that will save you tons of typing:
 
@@ -32,7 +32,7 @@ cd - && pwd
 
 ---
 
-## 🔍 Question 3: Practice Moving Up the Directory Tree
+## 🔍 Practice Exercise 3: Practice Moving Up the Directory Tree
 
 Let's learn to navigate upward through the directory structure:
 

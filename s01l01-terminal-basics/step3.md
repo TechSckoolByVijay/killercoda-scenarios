@@ -2,7 +2,7 @@
 
 Fantastic! You're getting comfortable with the basics. Now let's learn some essential productivity tricks that will make you a terminal power user! ⚡
 
-## 🔍 Question 1: Clean Slate for Better Focus
+## � Practice Exercise 1: Clean Slate for Better Focus
 
 Sometimes your terminal gets cluttered with lots of text. Let's learn how to get a fresh, clean workspace:
 
@@ -15,7 +15,7 @@ clear
 
 ---
 
-## 🔍 Question 2: Run Multiple Commands Like a Pro
+## � Practice Exercise 2: Run Multiple Commands Like a Pro
 
 Now let's learn a powerful trick - running multiple commands in one line. This is like giving your terminal a to-do list:
 
@@ -28,7 +28,7 @@ pwd && whoami && ls
 
 ---
 
-## 🔍 Question 3: Get Quick Help When You Need It
+## � Practice Exercise 3: Get Quick Help When You Need It
 
 Every Linux command comes with built-in help. Let's learn how to access it:
 

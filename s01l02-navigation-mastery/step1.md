@@ -2,7 +2,7 @@
 
 Welcome to navigation mastery! Think of yourself as an explorer in a digital world - let's learn to see everything around you clearly! �️
 
-## 🔍 Question 1: What's in My Current Location?
+## 🔍 Practice Exercise 1: What's in My Current Location?
 
 Let's start by seeing what files and directories are in your current location. This is like scanning a room when you walk in:
 
@@ -15,7 +15,7 @@ cd ~/workspace && ls
 
 ---
 
-## 🔍 Question 2: Show Me All the Details!
+## 🔍 Practice Exercise 2: Show Me All the Details!
 
 Now let's get the full story about each item - sizes, permissions, and even hidden files:
 
@@ -28,7 +28,7 @@ ls -lah
 
 ---
 
-## 🔍 Question 3: Understanding What You See
+## 🔍 Practice Exercise 3: Understanding What You See
 
 Let's interpret what all that information means. Each line tells a story about every file:
 

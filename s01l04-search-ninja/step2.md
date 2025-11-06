@@ -2,7 +2,7 @@
 
 Now let's level up your search skills with patterns and regular expressions - your ninja tools for complex searches! ⚔️
 
-## 🔍 Question 1: Search with Line Numbers
+## 🔍 Practice Exercise 1: Search with Line Numbers
 
 Sometimes you need to know exactly where your search results are located in the file:
 
@@ -19,7 +19,7 @@ grep -n "192.168" server.log
 
 ---
 
-## 🔍 Question 2: Pattern Matching with Special Characters
+## 🔍 Practice Exercise 2: Pattern Matching with Special Characters
 
 Let's search for patterns instead of exact text - this is where grep becomes really powerful:
 
@@ -36,7 +36,7 @@ grep "completed$" server.log
 
 ---
 
-## 🔍 Question 3: Inverse Search - Show What Doesn't Match
+## 🔍 Practice Exercise 3: Inverse Search - Show What Doesn't Match
 
 Sometimes you want to see everything EXCEPT certain lines - perfect for filtering out noise:
 
