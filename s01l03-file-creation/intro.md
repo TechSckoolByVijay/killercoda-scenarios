@@ -1,4 +1,4 @@
-# File Creation & Viewing Workshop! 📝
+﻿# File Creation & Viewing Workshop! 📝
 
 Time to become the **architect of your Linux workspace**!
 

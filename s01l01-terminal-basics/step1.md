@@ -1,4 +1,4 @@
-# Step 1 — Find Your Location & Identity 🗺️
+﻿# Step 1 — Find Your Location & Identity 🗺️
 
 Welcome to your Linux adventure! Let's start by getting oriented - just like when you arrive in a new city, you need to know where you are and who you are! 🧭
 
@@ -28,7 +28,7 @@ whoami
 
 ---
 
-## � Practice Exercise 3: Clear the Clutter for a Fresh Start
+## 📝 Practice Exercise 3: Clear the Clutter for a Fresh Start
 
 Let's clean up your terminal screen to have a nice, clear workspace for the next commands:
 

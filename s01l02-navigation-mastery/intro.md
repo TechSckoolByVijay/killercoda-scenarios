@@ -1,4 +1,4 @@
-# Linux Navigation Adventure! 🧭
+﻿# Linux Navigation Adventure! 🧭
 
 Time to **move around Linux** like a digital explorer!
 

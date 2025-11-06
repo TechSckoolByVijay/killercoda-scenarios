@@ -1,4 +1,4 @@
-# Step 2 — Add Content & View Files 👀
+﻿# Step 2 — Add Content & View Files 👀
 
 Excellent! You've created your workspace structure. Now let's add some content and learn to read files like a pro! �
 

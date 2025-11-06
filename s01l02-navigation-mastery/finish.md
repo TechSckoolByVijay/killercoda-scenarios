@@ -1,4 +1,4 @@
-# Congratulations! 🎉
+﻿# Congratulations! 🎉
 
 You've successfully completed **Navigation Mastery** and can now move through Linux like a pro!
 

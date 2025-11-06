@@ -1,4 +1,4 @@
-# Step 2 — Advanced Search Patterns 🎯
+﻿# Step 2 — Advanced Search Patterns 🎯
 
 Now let's level up your search skills with patterns and regular expressions - your ninja tools for complex searches! ⚔️
 

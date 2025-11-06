@@ -1,4 +1,4 @@
-# Congratulations! 🎉
+﻿# Congratulations! 🎉
 
 You've successfully completed **Terminal Basics** and mastered your first Linux commands!
 

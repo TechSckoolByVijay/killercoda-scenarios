@@ -1,4 +1,4 @@
-# Step 3 — Safe Cleanup & File Discovery 🗑️🔍
+﻿# Step 3 — Safe Cleanup & File Discovery 🗑️🔍
 
 Great work! Now for the final skills - safe file deletion and powerful file searching. These are like having a digital cleanup crew and detective! 🕵️
 
@@ -430,3 +430,4 @@ You now have **complete file management control**:
 ✅ **Find** — Locate any file anywhere in the system
 
 Ready to celebrate your **File Operations Mastery**? Click **Next**!
+

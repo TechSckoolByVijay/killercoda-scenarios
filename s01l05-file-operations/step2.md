@@ -1,4 +1,4 @@
-# Step 2 — Move & Organize Files 🚚
+﻿# Step 2 — Move & Organize Files 🚚
 
 Welcome back! Now let's learn how to move and rename files like a pro. Think of `mv` as your digital moving truck - it relocates files to new homes! 🏠
 
@@ -52,3 +52,4 @@ ls scripts/
 **What you'll see:** All your script files are now perfectly organized in one place - much cleaner! 🗂️
 
 Ready to learn safe file deletion and powerful file searching? Let's master cleanup techniques! →
+

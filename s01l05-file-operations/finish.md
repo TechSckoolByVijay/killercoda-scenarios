@@ -1,4 +1,4 @@
-# Congratulations! 🎉
+﻿# Congratulations! 🎉
 
 You've successfully completed **File Operations Mastery** and gained the complete toolkit for professional Linux file management!
 

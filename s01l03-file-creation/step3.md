@@ -1,4 +1,4 @@
-# Step 3 — Master Precision Viewing & Search 🎯
+﻿# Step 3 — Master Precision Viewing & Search 🎯
 
 Great work! Now let's learn the precision tools that Linux professionals use every day for analyzing files! 🔍
 

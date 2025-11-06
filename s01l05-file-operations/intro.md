@@ -1,4 +1,4 @@
-# File Operations Workshop! 🛠️
+﻿# File Operations Workshop! 🛠️
 
 Master essential file management commands that Linux professionals use daily!
 

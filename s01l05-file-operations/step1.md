@@ -1,4 +1,4 @@
-# Step 1 — Master File Copying 📋
+﻿# Step 1 — Master File Copying 📋
 
 Hi there! Ready to become a file copying pro? Let's start with the most essential skill - making safe backups of your important files! 🎯
 
@@ -48,3 +48,4 @@ ls -lah backups/
 **What you'll see:** Your config file is now safely stored in the backups folder - smart backup strategy! 🔒
 
 Ready to learn how to organize and move files? Let's go! →
+

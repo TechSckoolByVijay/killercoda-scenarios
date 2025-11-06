@@ -1,4 +1,4 @@
-# Step 2 — Navigate Like a Digital Explorer 🧭
+﻿# Step 2 — Navigate Like a Digital Explorer 🧭
 
 Great job exploring! Now let's learn to move around the file system like a pro. Think of `cd` as your teleportation device! ✨
 

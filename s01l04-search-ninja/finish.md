@@ -1,4 +1,4 @@
-# Congratulations! 🎉
+﻿# Congratulations! 🎉
 
 You've successfully completed **Search Ninja Training** and mastered the mighty power of **grep**!
 

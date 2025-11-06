@@ -1,4 +1,4 @@
-# Step 1 — Master Basic Text Search 🔍
+﻿# Step 1 — Master Basic Text Search 🔍
 
 Welcome to your search ninja training! Today you'll learn `grep` - one of Linux's most powerful tools for finding text. Think of it as your digital detective! �️
 

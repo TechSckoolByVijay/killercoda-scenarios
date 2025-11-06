@@ -1,4 +1,4 @@
-# Step 1 — Create Your Digital Workspace 📁
+﻿# Step 1 — Create Your Digital Workspace 📁
 
 Welcome to file creation mastery! Today you'll learn to create files and folders like a Linux pro. Think of it as building your digital workspace from scratch! 🏗️
 

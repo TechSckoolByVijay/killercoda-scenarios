@@ -1,4 +1,4 @@
-# Search Ninja Training! 🥷
+﻿# Search Ninja Training! 🥷
 
 Master **grep** — one of Linux's most powerful text search tools!
 

@@ -1,4 +1,4 @@
-# Step 1 — Explore Your Surroundings 🔍
+﻿# Step 1 — Explore Your Surroundings 🔍
 
 Welcome to navigation mastery! Think of yourself as an explorer in a digital world - let's learn to see everything around you clearly! �️
 

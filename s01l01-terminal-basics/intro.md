@@ -1,4 +1,4 @@
-# Welcome to Linux Terminal! 🐧
+﻿# Welcome to Linux Terminal! 🐧
 
 Your first conversation with Linux starts here.
 
