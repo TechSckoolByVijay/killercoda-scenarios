@@ -2,7 +2,7 @@
 
 Welcome back! Now let's learn how to move and rename files like a pro. Think of `mv` as your digital moving truck - it relocates files to new homes! 🏠
 
-## � Practice Exercise 1: Give Files Better Names
+## 📝 Practice Exercise 1: Give Files Better Names
 
 Let's start by renaming a file to be more descriptive. Good naming saves you time later when searching for files:
 
@@ -19,7 +19,7 @@ ls -lah *report*
 
 ---
 
-## � Practice Exercise 2: Relocate Files to Better Locations
+## 📝 Practice Exercise 2: Relocate Files to Better Locations
 
 Now let's move a file to a more appropriate directory. This is like filing a document in the right folder:
 
@@ -36,7 +36,7 @@ ls archives/
 
 ---
 
-## � Practice Exercise 3: Organize Multiple Files at Once
+## 📝 Practice Exercise 3: Organize Multiple Files at Once
 
 Time for some batch organization! Let's move all script files to a dedicated scripts folder:
 

@@ -23,7 +23,7 @@ ls temp-files/
 
 ---
 
-## � Practice Exercise 2: Find Files Like a Detective
+## 📝 Practice Exercise 2: Find Files Like a Detective
 
 Now let's use the powerful `find` command to locate files anywhere in your workspace. It's like having X-ray vision for your file system!
 

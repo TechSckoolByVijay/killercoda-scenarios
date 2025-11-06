@@ -2,7 +2,7 @@
 
 Hi there! Ready to become a file copying pro? Let's start with the most essential skill - making safe backups of your important files! 🎯
 
-## � Practice Exercise 1: Explore Your Workshop
+## 📝 Practice Exercise 1: Explore Your Workshop
 
 First, let's see what files we have to work with. We'll navigate to your workshop and take a look around:
 
@@ -15,7 +15,7 @@ cd ~/workshop && ls -lah
 
 ---
 
-## � Practice Exercise 2: Create Your First Backup  
+## 📝 Practice Exercise 2: Create Your First Backup  
 
 Now let's make a safety copy of an important file. Think of this like saving a backup before making changes:
 
@@ -32,7 +32,7 @@ ls -lah *important*
 
 ---
 
-## � Practice Exercise 3: Copy to a Safe Location
+## 📝 Practice Exercise 3: Copy to a Safe Location
 
 Let's move that backup to a dedicated backup folder for better organization:
 
