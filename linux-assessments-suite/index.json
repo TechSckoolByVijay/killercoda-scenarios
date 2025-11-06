@@ -3,7 +3,7 @@
   "description": "Quizzes, practical checks, randomized labs, and a terminal-only final exam.",
   "difficulty": "beginner",
   "time": "20 minutes",
-  "backend": { "imageid": "ubuntu:latest" },
+  "backend": { "imageid": "ubuntu" },
   "environment": { "uilayout": "terminal" },
   "details": {
     "steps": [
