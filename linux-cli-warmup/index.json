@@ -3,7 +3,7 @@
   "description": "Practice pwd, whoami, cd, and ls sorting by modified time.",
   "difficulty": "beginner",
   "time": "10 minutes",
-  "backend": { "imageid": "ubuntu:latest" },
+  "backend": { "imageid": "ubuntu" },
   "environment": { "uilayout": "terminal" },
   "details": {
     "steps": [
