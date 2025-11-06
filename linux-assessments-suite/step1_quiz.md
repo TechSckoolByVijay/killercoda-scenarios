@@ -1,57 +1,107 @@
-## Step 1 — MCQ Quiz Basics
+## Step 1 — Interactive Command Knowledge Check
 
-Test your knowledge of essential Linux commands!
-
----
-
-### Question 1: File Listing Command
-
-Which command lists files with permissions, owner, size, and timestamp?
-
-- [ ] `ls`
-- [x] `ls -l`
-- [ ] `whoami`
-
-> **Explanation:** The `-l` flag provides a detailed "long" listing format that shows file permissions, ownership, size, and modification timestamps.
+Test your Linux command knowledge through hands-on exploration!
 
 ---
 
-### Question 2: Time Sorting
+### 🎯 Challenge 1: File Listing Discovery
 
-Which flag sorts files by modification time (newest first) when used with `ls`?
+**Question:** Which command shows detailed file information including permissions, owner, size, and timestamp?
 
-- [ ] `-a`
-- [x] `-t`
-- [ ] `-r`
+Try these commands and observe the differences:
 
-> **Explanation:** The `-t` flag sorts files by modification time with the newest files appearing first.
+```bash
+ls
+```{{exec}}
+
+```bash
+ls -l
+```{{exec}}
+
+```bash
+whoami
+```{{exec}}
+
+**Notice the difference?** The `-l` flag provides the detailed "long" listing format you need!
+
+---
+
+### 🎯 Challenge 2: Time Sorting Exploration
+
+**Question:** Which flag sorts files by modification time (newest first)?
+
+Let's test different flags in the demo directory:
+
+```bash
+cd ~/demo
+```{{exec}}
+
+```bash
+ls -l
+```{{exec}}
+
+```bash
+ls -lt
+```{{exec}}
+
+```bash
+ls -la
+```{{exec}}
+
+**Observation:** The `-t` flag sorts by modification time with newest files first!
 
 ---
 
-### Question 3: Reverse Sorting
+### 🎯 Challenge 3: Reverse Sorting Test
 
-To show the OLDEST files first when sorting by time, you would use:
+**Question:** How do you show the OLDEST files first when sorting by time?
 
-- [ ] `ls -lt`
-- [x] `ls -ltr`
-- [ ] `ls -la`
+Try these combinations:
 
-> **Explanation:** The `-r` flag reverses the sort order, so `-ltr` shows oldest files first.
+```bash
+ls -lt
+```{{exec}}
+
+```bash
+ls -ltr
+```{{exec}}
+
+**Discovery:** The `-r` flag reverses the order, so `-ltr` shows oldest files first!
 
 ---
+
+### 🎯 Bonus Challenge: Flag Combinations
+
+Test these powerful combinations and see what each does:
+
+```bash
+ls -lh
+```{{exec}}
+
+```bash
+ls -lth
+```{{exec}}
+
+```bash
+ls -lah
+```{{exec}}
 
 <details>
-<summary>💡 Pro Tips & Hints</summary>
+<summary>💡 Pro Tips Summary</summary>
 
-**Common `ls` flag combinations:**
+**Master these `ls` combinations:**
+- `ls -l` - Detailed listing (permissions, owner, size, date)
 - `ls -lt` - Sort by time, newest first  
 - `ls -ltr` - Sort by time, oldest first (reverse)
-- `ls -lh` - Human-readable file sizes
+- `ls -lh` - Human-readable file sizes (KB, MB, GB)
 - `ls -la` - Show hidden files (starting with .)
 - `ls -lth` - Time sorted with human-readable sizes
+- `ls -lah` - All files with human-readable sizes
 
 **Remember:** You can combine multiple flags like `-lth` for maximum information!
 
 </details>
 
-Ready to practice these commands hands-on? Click **Next**!
+### ✅ Knowledge Check Complete!
+
+You've discovered the power of `ls` flags through hands-on experimentation. Ready for practical challenges? Click **Next**!
