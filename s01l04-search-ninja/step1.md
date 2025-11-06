@@ -1,20 +1,27 @@
-# Step 1 — Basic Search (grep) 🔍
+# Step 1 — Master Basic Text Search 🔍
 
-## Your First Search
+Welcome to your search ninja training! Today you'll learn `grep` - one of Linux's most powerful tools for finding text. Think of it as your digital detective! �️
+
+## 🔍 Question 1: Your First Search Mission
+
+Let's start by finding specific text in a log file. This is like searching for clues in a detective story:
 
 ```bash
-cd ~/ninja-dojo && ls -lah
+cd ~/ninja-dojo && ls -la
 ```{{exec}}
 
 ```bash
 grep "ERROR" server.log
 ```{{exec}}
 
-**Instant results!** grep found all lines containing "ERROR"
+**What we're doing:** Moving to your training dojo and searching for all lines containing "ERROR" in the server log  
+**What you'll see:** Only the lines with errors are displayed - grep filters out everything else and highlights your matches! 🎯
 
 ---
 
-## Case-Insensitive Search
+## 🔍 Question 2: Case-Insensitive Searching
+
+Sometimes you need to find text regardless of whether it's uppercase or lowercase. Let's practice flexible searching:
 
 ```bash
 grep "error" server.log
@@ -24,51 +31,27 @@ grep "error" server.log
 grep -i "error" server.log
 ```{{exec}}
 
-**Big difference!** `-i` ignores case (ERROR, error, Error)
+**What we're doing:** First searching for lowercase "error" (finds nothing), then using `-i` flag for case-insensitive search  
+**What you'll see:** The `-i` flag finds "ERROR", "error", and any other case combination - much more powerful! 💪
 
 ---
 
-## Search Multiple Files
+## 🔍 Question 3: Search Multiple Files and Count Matches
+
+Let's expand your search skills to work with multiple files and get statistics:
 
 ```bash
 grep "password" *.conf
 ```{{exec}}
 
 ```bash
-grep "user" *.txt
-```{{exec}}
-
-**Multi-file power!** Search across all files with one command
-
----
-
-## Count Matches
-
-```bash
 grep -c "INFO" server.log
 ```{{exec}}
 
-```bash
-grep -c -i "warning" server.log
-```{{exec}}
+**What we're doing:** Searching for "password" across all .conf files, then counting how many INFO messages are in the log  
+**What you'll see:** Multi-file results show the filename before each match, and `-c` gives you a count instead of showing all matches! 📊
 
-**Statistics mode!** `-c` counts total matches
-
----
-
-## Filter Commands
-
-```bash
-ps aux | grep "bash"
-```{{exec}}
-
-```bash
-ls -la | grep "\.log"
-```{{exec}}
-
-💡 **Pipeline magic:** Use `|` to filter any command output!
-
-**Ready for advanced patterns?** →
+Excellent! You've mastered basic grep searching. Ready to learn advanced patterns and line numbers? →
 
 ---
 
