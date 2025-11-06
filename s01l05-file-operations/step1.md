@@ -1,24 +1,80 @@
 # Step 1 — Copy & Backup (cp) 📋
 
-Welcome to your file operations workshop! Let's start with **copying files** — one of the most essential skills for creating backups and organizing your work.
+## Setup Practice Environment
 
-## The Copy Command - Your Safety Net
+```bash
+cd ~/file-ops-lab && ls -lah
+```{{exec}}
 
-Think of `cp` like **Ctrl+C → Ctrl+V** but with **supercharged control and precision**!
+## Basic File Copy
+
+```bash
+cp sample.txt sample-backup.txt
+```{{exec}}
+
+```bash
+ls -la *.txt
+```{{exec}}
+
+**Perfect!** Original safe, backup created.
 
 ---
 
-## 1. Enter Your Operations Lab
-
-Let's navigate to your practice environment:
+## Copy to Directory
 
 ```bash
-cd ~/file-ops-lab
+cp important.conf backups/
 ```{{exec}}
 
 ```bash
-ls -lah
+ls backups/
 ```{{exec}}
+
+**Smart backup!** Important files in dedicated folder.
+
+---
+
+## Copy with New Name
+
+```bash
+cp data.log backups/data-$(date +%Y%m%d).log
+```{{exec}}
+
+```bash
+ls backups/
+```{{exec}}
+
+**Timestamped backup!** Never lose track of versions.
+
+---
+
+## Copy Entire Directory
+
+```bash
+cp -r projects/ projects-backup/
+```{{exec}}
+
+```bash
+ls -la projects*
+```{{exec}}
+
+**Recursive copy!** `-r` handles entire directory trees.
+
+---
+
+## Multiple Files at Once
+
+```bash
+cp *.txt documents/
+```{{exec}}
+
+```bash
+ls documents/
+```{{exec}}
+
+💡 **Safety first:** Always backup before major changes!
+
+**Ready to move and organize?** →
 
 Perfect! Your lab environment is ready with projects, backup areas, and practice files.
 

@@ -1,22 +1,74 @@
-# Step 2 — Advanced Search Options 🎯
+# Step 2 — Advanced Options & Patterns 🎯
 
-Excellent work, ninja! Now let's upgrade your search powers with **advanced grep options** that professionals use daily!
+## Line Numbers for Debugging
 
-## Advanced Ninja Techniques
+```bash
+grep -n "ERROR" server.log
+```{{exec}}
 
-Time to learn the **secret flags** that transform grep from good to **absolutely amazing**!
+**Precision!** `-n` shows exact line numbers for easy debugging
 
 ---
 
-## 1. Case-Insensitive Search (-i)
-
-By default, grep is case-sensitive. But what if you want to find both "Error" and "ERROR"?
+## Pattern Matching Power
 
 ```bash
-grep "error" server.log
+grep "^2024" server.log
 ```{{exec}}
 
-Nothing found! But watch this:
+```bash
+grep "completed$" server.log
+```{{exec}}
+
+**Pattern magic:**
+- `^2024` = lines starting with "2024"  
+- `completed$` = lines ending with "completed"
+
+---
+
+## Inverse Search (Exclude)
+
+```bash
+grep -v "INFO" server.log
+```{{exec}}
+
+```bash
+grep -v -i "debug" server.log
+```{{exec}}
+
+**Filter out noise!** `-v` shows lines that DON'T match
+
+---
+
+## Context Around Matches
+
+```bash
+grep -A 2 "ERROR" server.log
+```{{exec}}
+
+```bash
+grep -B 1 -A 2 "ERROR" server.log
+```{{exec}}
+
+**See the whole story:**
+- `-A 2` = 2 lines After match
+- `-B 1` = 1 line Before match
+
+---
+
+## Professional Combos
+
+```bash
+grep -n -i "failed" *.log | head -3
+```{{exec}}
+
+```bash
+grep -E "ERROR|WARN" server.log | wc -l
+```{{exec}}
+
+💡 **Ninja mastery:** Combine options for surgical precision!
+
+**Ready to master powerful filtering?** →
 
 ```bash
 grep -i "error" server.log

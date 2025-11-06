@@ -1,14 +1,93 @@
-# Step 3 — Remove & Find (rm, find) 🗑️🔍
+# Step 3 — Delete & Find (rm, find) 🗑️
 
-Excellent! You've mastered copying and moving files. Now let's learn **safe deletion practices** and **powerful file discovery** — the final pieces of your file operations toolkit!
+## Safe File Deletion
 
-## Safe Deletion & File Discovery
+```bash
+ls temp/
+```{{exec}}
 
-`rm` is your **deletion tool** (use with caution!), and `find` is your **GPS for files** — together they complete your file management arsenal!
+```bash
+rm temp/unwanted.txt
+```{{exec}}
+
+```bash
+ls temp/
+```{{exec}}
+
+**File deleted!** Always check directory first.
 
 ---
 
-## 1. Safe File Deletion Practice
+## Interactive Deletion (Safer)
+
+```bash
+rm -i temp/test.txt
+```{{exec}}
+
+**Type `y` to confirm, `n` to cancel**
+
+**Safety first!** `-i` asks before every deletion.
+
+---
+
+## Delete Multiple Files
+
+```bash
+rm temp/*.tmp
+```{{exec}}
+
+```bash
+ls temp/
+```{{exec}}
+
+**Pattern deletion!** All .tmp files removed at once.
+
+---
+
+## Find Files by Name
+
+```bash
+find . -name "*.conf"
+```{{exec}}
+
+```bash
+find . -name "*backup*"
+```{{exec}}
+
+**Powerful search!** Find files using patterns anywhere.
+
+---
+
+## Find by Properties
+
+```bash
+find . -type f -size +1k
+```{{exec}}
+
+```bash
+find . -name "*.txt" -mtime -1
+```{{exec}}
+
+**Advanced search:**
+- `-type f` = files only
+- `-size +1k` = larger than 1KB  
+- `-mtime -1` = modified within 1 day
+
+---
+
+## Professional Cleanup
+
+```bash
+find . -name "*.tmp" -delete
+```{{exec}}
+
+```bash
+find . -name "*.backup" -exec rm -i {} \;
+```{{exec}}
+
+💡 **Golden rule:** Always preview with `find` before deleting!
+
+**🎉 File operations mastery complete!**
 
 Let's start with safe deletion techniques. First, see what's in our temp directory:
 

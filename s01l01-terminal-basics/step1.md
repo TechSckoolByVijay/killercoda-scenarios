@@ -1,63 +1,41 @@
 # Step 1 — Where Am I? (pwd) 🧭
 
-Welcome to your first Linux command! Let's start with the most fundamental question: **Where am I?**
-
-## The pwd Command
-
-When you open a terminal, you might wonder: "Where am I in this computer?" 
-
-That's exactly what `pwd` answers. It stands for **Print Working Directory**.
-
----
-
-## 1. Find Your Current Location
-
-Let's discover where you are right now:
+## Find Your Location
 
 ```bash
 pwd
 ```{{exec}}
 
-🎯 **What happened?** Linux just told you your exact location in the file system!
+**What happened?** Linux told you your exact location!
 
 ---
 
-## 2. Understanding the Output
+## Understanding the Path
 
-You probably saw something like `/root` or `/home/username`. This is your **current directory path**.
+You saw something like `/root` or `/home/username`. This is your **address** in Linux.
 
-Think of it like this:
-- Linux is a huge city 🏙️
-- `pwd` is your **"You Are Here"** marker on Google Maps
-- The path shows your exact address in the Linux city
+💡 **Think of it like:** Street address in a digital city
 
 ---
 
-## 3. Try It Again!
+## Try From Different Location
 
-Let's practice this essential command one more time:
+```bash
+cd /tmp
+```{{exec}}
 
 ```bash
 pwd
 ```{{exec}}
 
-Notice how it gives you the **same answer**? That's because you haven't moved yet!
+See how the location changed? `pwd` always shows **where you are right now**.
 
 ---
 
-## 🎯 Real-World Analogy
+## 🎯 Pro Tips
 
-Think of `pwd` like asking **"What street am I on?"** 
-- Before moving anywhere, it's good to know where you currently are
-- This becomes super important when you start navigating folders
-- Every Linux professional uses this command daily!
+- Use `pwd` when you feel lost
+- Essential before moving files
+- First command most Linux pros type
 
----
-
-## 💡 Key Takeaway
-
-`pwd` = **Print Working Directory** = **"Where am I right now?"**
-
-This is your GPS coordinate in the Linux world. Before we learn to move around, we need to know where we're starting from!
-
-Ready to discover **who you are** in Linux? Click **Next**!
+**Ready to discover WHO you are?** →

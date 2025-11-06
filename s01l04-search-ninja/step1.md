@@ -1,26 +1,74 @@
 # Step 1 — Basic Search (grep) 🔍
 
-Welcome to your search ninja training! Let's start with the **fundamental power of grep** — finding text in files instantly!
+## Your First Search
 
-## Your First Search Weapon
+```bash
+cd ~/ninja-dojo && ls -lah
+```{{exec}}
 
-`grep` stands for **Global Regular Expression Print**, but think of it simply as **"find me this text in that file"**!
+```bash
+grep "ERROR" server.log
+```{{exec}}
+
+**Instant results!** grep found all lines containing "ERROR"
 
 ---
 
-## 1. Enter Your Training Dojo
-
-Let's navigate to your practice environment:
+## Case-Insensitive Search
 
 ```bash
-cd ~/ninja-dojo
+grep "error" server.log
 ```{{exec}}
 
 ```bash
-ls -lah
+grep -i "error" server.log
 ```{{exec}}
 
-Perfect! Your training files are ready. Let's see what we're working with.
+**Big difference!** `-i` ignores case (ERROR, error, Error)
+
+---
+
+## Search Multiple Files
+
+```bash
+grep "password" *.conf
+```{{exec}}
+
+```bash
+grep "user" *.txt
+```{{exec}}
+
+**Multi-file power!** Search across all files with one command
+
+---
+
+## Count Matches
+
+```bash
+grep -c "INFO" server.log
+```{{exec}}
+
+```bash
+grep -c -i "warning" server.log
+```{{exec}}
+
+**Statistics mode!** `-c` counts total matches
+
+---
+
+## Filter Commands
+
+```bash
+ps aux | grep "bash"
+```{{exec}}
+
+```bash
+ls -la | grep "\.log"
+```{{exec}}
+
+💡 **Pipeline magic:** Use `|` to filter any command output!
+
+**Ready for advanced patterns?** →
 
 ---
 

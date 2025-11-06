@@ -1,14 +1,72 @@
-# Step 3 — Filter & Combine with Pipes ⚡
+# Step 3 — Master Pipes & Filtering ⚡
 
-**Congratulations, ninja!** You've mastered basic and advanced grep. Now for the **ultimate technique** — combining grep with other commands using **pipes**!
+## Filter Process Lists
 
-## The Ultimate Ninja Weapon: Pipes (|)
+```bash
+ps aux | grep "python"
+```{{exec}}
 
-The pipe `|` means **"take the output of the left command and send it to the right command"**. This is where grep becomes **truly powerful**!
+```bash
+ps aux | grep -v "grep"
+```{{exec}}
+
+**System power!** Filter running processes instantly
 
 ---
 
-## 1. Filter Process Lists
+## Chain Multiple Searches
+
+```bash
+grep "ERROR" server.log | grep "database"
+```{{exec}}
+
+```bash
+grep -v "INFO" server.log | grep "WARN"
+```{{exec}}
+
+**Refine results** by chaining grep commands
+
+---
+
+## Live Log Monitoring
+
+```bash
+tail -f server.log | grep --color=always "ERROR"
+```{{exec}}
+
+**Press Ctrl+C to stop**
+
+**Real-time monitoring!** Watch for patterns as they happen
+
+---
+
+## Statistics & Analysis
+
+```bash
+grep "ERROR" *.log | wc -l
+```{{exec}}
+
+```bash
+grep -c "INFO" *.log
+```{{exec}}
+
+**Data analysis** made easy with counting
+
+---
+
+## Advanced Combinations
+
+```bash
+cat users.txt | grep "@" | head -3
+```{{exec}}
+
+```bash
+ls -la | grep "\.log" | wc -l
+```{{exec}}
+
+💡 **Master technique:** Pipe any command output through grep for instant filtering!
+
+**🎉 You're now a grep master ninja!**
 
 Let's look at our processes file and filter it:
 

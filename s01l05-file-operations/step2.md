@@ -1,14 +1,82 @@
 # Step 2 — Move & Rename (mv) 🚚
 
-Excellent work with copying! Now let's master **moving and renaming** files with the versatile `mv` command — your digital moving truck!
+## Basic File Renaming
 
-## The Move Command - Organize Like a Pro
+```bash
+mv report.txt monthly-report.txt
+```{{exec}}
 
-`mv` is unique because it handles **both moving AND renaming**. Think of it as **cutting and pasting** with precision control!
+```bash
+ls -la *report*
+```{{exec}}
+
+**File renamed!** Same location, better name.
 
 ---
 
-## 1. Basic File Renaming
+## Move Between Directories
+
+```bash
+mv monthly-report.txt documents/
+```{{exec}}
+
+```bash
+ls documents/
+```{{exec}}
+
+**File relocated!** mv moves (doesn't copy) the file.
+
+---
+
+## Move and Rename Together
+
+```bash
+mv data.csv archives/backup-data.csv
+```{{exec}}
+
+```bash
+ls archives/
+```{{exec}}
+
+**Two actions in one!** New location AND new name.
+
+---
+
+## Move Multiple Files
+
+```bash
+mv *.tmp temp/
+```{{exec}}
+
+```bash
+ls temp/
+```{{exec}}
+
+**Batch move!** All .tmp files organized into temp directory.
+
+---
+
+## Organize Directory Structure
+
+```bash
+mkdir -p organized/{scripts,configs,logs}
+```{{exec}}
+
+```bash
+mv *.sh organized/scripts/
+mv *.conf organized/configs/  
+mv *.log organized/logs/
+```{{exec}}
+
+```bash
+ls organized/*/
+```{{exec}}
+
+**Professional organization!** Files sorted by type automatically.
+
+💡 **Key difference:** mv removes from original location (unlike cp)
+
+**Ready for safe file deletion?** →
 
 Let's start by renaming a file. First, let's see what we have:
 
