@@ -1,80 +1,53 @@
-# Step 1 — Copy & Backup (cp) 📋
+# Step 1 — Master File Copying 📋
 
-## Setup Practice Environment
+Hi there! Ready to become a file copying pro? Let's start with the most essential skill - making safe backups of your important files! 🎯
 
-```bash
-cd ~/file-ops-lab && ls -lah
-```{{exec}}
+## 🔍 Question 1: Explore Your Workshop
 
-## Basic File Copy
+First, let's see what files we have to work with. We'll navigate to your workshop and take a look around:
 
 ```bash
-cp sample.txt sample-backup.txt
+cd ~/workshop && ls -lah
 ```{{exec}}
 
-```bash
-ls -la *.txt
-```{{exec}}
-
-**Perfect!** Original safe, backup created.
+**What we're doing:** Moving to your workshop directory and listing all files with details  
+**What you'll see:** A variety of files and folders we've prepared for your practice - perfect for learning!
 
 ---
 
-## Copy to Directory
+## 🔍 Question 2: Create Your First Backup  
+
+Now let's make a safety copy of an important file. Think of this like saving a backup before making changes:
 
 ```bash
-cp important.conf backups/
+cp important.txt important-backup.txt
 ```{{exec}}
 
 ```bash
-ls backups/
+ls -lah *important*
 ```{{exec}}
 
-**Smart backup!** Important files in dedicated folder.
+**What we're doing:** Creating an exact duplicate of `important.txt` with a backup name  
+**What you'll see:** Two files - your original is safe, and you now have a backup copy! Notice they have the same size. 🎉
 
 ---
 
-## Copy with New Name
+## 🔍 Question 3: Copy to a Safe Location
+
+Let's move that backup to a dedicated backup folder for better organization:
 
 ```bash
-cp data.log backups/data-$(date +%Y%m%d).log
+cp config.conf backups/
 ```{{exec}}
 
 ```bash
-ls backups/
+ls -lah backups/
 ```{{exec}}
 
-**Timestamped backup!** Never lose track of versions.
+**What we're doing:** Copying our config file to the backups directory (like having a safety vault!)  
+**What you'll see:** Your config file is now safely stored in the backups folder - smart backup strategy! 🔒
 
----
-
-## Copy Entire Directory
-
-```bash
-cp -r projects/ projects-backup/
-```{{exec}}
-
-```bash
-ls -la projects*
-```{{exec}}
-
-**Recursive copy!** `-r` handles entire directory trees.
-
----
-
-## Multiple Files at Once
-
-```bash
-cp *.txt documents/
-```{{exec}}
-
-```bash
-ls documents/
-```{{exec}}
-
-💡 **Safety first:** Always backup before major changes!
-
-**Ready to move and organize?** →
+Ready to learn how to organize and move files? Let's go! →
 
 Perfect! Your lab environment is ready with projects, backup areas, and practice files.
 

@@ -1,50 +1,31 @@
-# Step 3 — Delete & Find (rm, find) 🗑️
+# Step 3 — Safe Cleanup & File Discovery 🗑️🔍
 
-## Safe File Deletion
+Great work! Now for the final skills - safe file deletion and powerful file searching. These are like having a digital cleanup crew and detective! �️
+
+## 🔍 Question 1: Safe File Deletion Practice
+
+First, let's safely remove a single unwanted file. We'll use the temp-files directory where it's safe to practice:
 
 ```bash
-ls temp/
+ls temp-files/
 ```{{exec}}
 
 ```bash
-rm temp/unwanted.txt
+rm temp-files/old.txt
 ```{{exec}}
 
 ```bash
-ls temp/
+ls temp-files/
 ```{{exec}}
 
-**File deleted!** Always check directory first.
+**What we're doing:** Removing one unwanted file from the temp-files directory  
+**What you'll see:** The file disappears from the listing - it's been permanently deleted! Always start with single files for safety. 🛡️
 
 ---
 
-## Interactive Deletion (Safer)
+## 🔍 Question 2: Find Files Like a Detective
 
-```bash
-rm -i temp/test.txt
-```{{exec}}
-
-**Type `y` to confirm, `n` to cancel**
-
-**Safety first!** `-i` asks before every deletion.
-
----
-
-## Delete Multiple Files
-
-```bash
-rm temp/*.tmp
-```{{exec}}
-
-```bash
-ls temp/
-```{{exec}}
-
-**Pattern deletion!** All .tmp files removed at once.
-
----
-
-## Find Files by Name
+Now let's use the powerful `find` command to locate files anywhere in your workspace. It's like having X-ray vision for your file system!
 
 ```bash
 find . -name "*.conf"
@@ -54,40 +35,29 @@ find . -name "*.conf"
 find . -name "*backup*"
 ```{{exec}}
 
-**Powerful search!** Find files using patterns anywhere.
+**What we're doing:** Searching for all configuration files (.conf) and all files with "backup" in their name  
+**What you'll see:** A complete list of matching files with their exact locations - no more hunting through folders manually! 🎯
 
 ---
 
-## Find by Properties
+## 🔍 Question 3: Advanced File Discovery
+
+Let's try some advanced searching to find files by their properties. This is like having a smart filing assistant:
 
 ```bash
 find . -type f -size +1k
 ```{{exec}}
 
 ```bash
-find . -name "*.txt" -mtime -1
+find . -name "*.txt" | head -5
 ```{{exec}}
 
-**Advanced search:**
-- `-type f` = files only
-- `-size +1k` = larger than 1KB  
-- `-mtime -1` = modified within 1 day
+**What we're doing:** Finding files larger than 1KB, then finding .txt files (showing just the first 5)  
+**What you'll see:** Detailed information about your files based on size and type - super useful for system cleanup and organization! 📊
 
----
+🎉 **Congratulations!** You've mastered file operations - copying, moving, organizing, cleaning up, and finding files like a Linux pro! These skills will serve you well in every project. 🏆
 
-## Professional Cleanup
-
-```bash
-find . -name "*.tmp" -delete
-```{{exec}}
-
-```bash
-find . -name "*.backup" -exec rm -i {} \;
-```{{exec}}
-
-💡 **Golden rule:** Always preview with `find` before deleting!
-
-**🎉 File operations mastery complete!**
+Ready for your next Linux adventure? →
 
 Let's start with safe deletion techniques. First, see what's in our temp directory:
 

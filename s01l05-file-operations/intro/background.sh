@@ -3,91 +3,59 @@ set -x # to test stderr output in /var/log/killercoda
 
 echo "Setting up File Operations workshop environment..." # to test stdout output in /var/log/killercoda
 
-# Create workshop directory structure
-mkdir -p $HOME/file-ops-lab/{projects,backups,temp,archive}
+# Create the workshop directory that the scenario expects
+mkdir -p $HOME/workshop/{backups,documents,logs,temp,archives}
 
-# Create sample project structure
-mkdir -p $HOME/file-ops-lab/projects/{webapp,mobile-app,scripts}
-mkdir -p $HOME/file-ops-lab/projects/webapp/{src,config,docs}
-mkdir -p $HOME/file-ops-lab/projects/mobile-app/{android,ios,shared}
+# Create sample files for copy practice
+echo "This is important configuration data" > $HOME/workshop/important.txt
+echo "Application configuration settings" > $HOME/workshop/config.conf
+echo "Application log entries for testing" > $HOME/workshop/app.log
+echo "Sample data for processing" > $HOME/workshop/data.txt
 
-# Create sample files for copying practice
-cat > $HOME/file-ops-lab/projects/webapp/src/app.js << 'EOF'
-// Main application file
-const express = require('express');
-const app = express();
+# Create projects directory structure
+mkdir -p $HOME/workshop/projects/{frontend,backend,scripts}
+mkdir -p $HOME/workshop/projects/frontend/{src,assets,components}
+mkdir -p $HOME/workshop/projects/backend/{api,database,utils}
 
-app.get('/', (req, res) => {
-    res.send('Hello World!');
-});
+# Create sample files in projects
+echo "Frontend main application" > $HOME/workshop/projects/frontend/src/app.js
+echo "API routes configuration" > $HOME/workshop/projects/backend/api/routes.js
+echo "Database connection script" > $HOME/workshop/projects/backend/database/connect.js
 
-app.listen(3000, () => {
-    console.log('Server running on port 3000');
-});
-EOF
+# Create temporary files for practice
+echo "Temporary data 1" > $HOME/workshop/temp.txt
+echo "Old configuration backup" > $HOME/workshop/old-name.txt
+echo "CSV data sample" > $HOME/workshop/data.csv
 
-cat > $HOME/file-ops-lab/projects/webapp/config/database.yml << 'EOF'
-production:
-  adapter: postgresql
-  host: localhost
-  database: webapp_production
-  username: app_user
-  password: secure_password
+# Create log files for moving practice
+echo "2025-11-06 10:00:00 INFO Application started" > $HOME/workshop/system.log
+echo "2025-11-06 10:01:00 INFO User login successful" > $HOME/workshop/access.log
+echo "2025-11-06 10:02:00 WARN Low disk space" > $HOME/workshop/warning.log
 
-development:
-  adapter: postgresql
-  host: localhost
-  database: webapp_development
-  username: dev_user
-  password: dev_password
-EOF
+# Create script files for organization practice
+echo "#!/bin/bash" > $HOME/workshop/backup.sh
+echo "echo 'Backup script'" >> $HOME/workshop/backup.sh
+echo "#!/bin/bash" > $HOME/workshop/deploy.sh
+echo "echo 'Deploy script'" >> $HOME/workshop/deploy.sh
 
-cat > $HOME/file-ops-lab/projects/webapp/docs/README.md << 'EOF'
-# Web Application
-
-This is a sample web application for demonstrating file operations.
-
-## Installation
-
-1. Install dependencies
-2. Configure database
-3. Run the application
-
-## Usage
-
-Start the server with `node app.js`
-EOF
-
-# Create files for moving practice
-echo "Configuration for production environment" > $HOME/file-ops-lab/projects/webapp/prod.config
-echo "Development environment settings" > $HOME/file-ops-lab/projects/webapp/dev.config
-echo "Testing configuration" > $HOME/file-ops-lab/projects/webapp/test.config
+# Create config files for organization
+echo "port=8080" > $HOME/workshop/app.conf
+echo "debug=true" > $HOME/workshop/dev.conf
 
 # Create temporary files for deletion practice
-mkdir -p $HOME/file-ops-lab/temp/{logs,cache,uploads}
-echo "Temporary log file" > $HOME/file-ops-lab/temp/logs/app.log
-echo "Cache data" > $HOME/file-ops-lab/temp/cache/data.cache
-echo "Uploaded file" > $HOME/file-ops-lab/temp/uploads/file.txt
-echo "Old backup" > $HOME/file-ops-lab/temp/old-backup.tar.gz
+mkdir -p $HOME/workshop/temp-files
+echo "Unwanted file 1" > $HOME/workshop/temp-files/old.txt
+echo "Test file for deletion" > $HOME/workshop/temp-files/test.txt
+echo "Temporary file 1" > $HOME/workshop/temp-files/file1.tmp
+echo "Temporary file 2" > $HOME/workshop/temp-files/file2.tmp
+echo "Temporary file 3" > $HOME/workshop/temp-files/file3.tmp
 
-# Create files for find practice with different timestamps
-mkdir -p $HOME/file-ops-lab/projects/scripts
-echo "Backup script" > $HOME/file-ops-lab/projects/scripts/backup.sh
-echo "Deploy script" > $HOME/file-ops-lab/projects/scripts/deploy.sh
-echo "Monitor script" > $HOME/file-ops-lab/projects/scripts/monitor.py
+# Create empty directory for rmdir practice
+mkdir -p $HOME/workshop/empty-folder
 
-# Set different timestamps for find practice
-touch -d "2025-01-01 10:00:00" $HOME/file-ops-lab/projects/scripts/backup.sh
-touch -d "2025-01-02 14:30:00" $HOME/file-ops-lab/projects/scripts/deploy.sh
-touch -d "2025-01-03 09:15:00" $HOME/file-ops-lab/projects/scripts/monitor.py
-
-# Create some files in deeper directories for find practice
-mkdir -p $HOME/file-ops-lab/projects/mobile-app/android/src
-mkdir -p $HOME/file-ops-lab/projects/mobile-app/ios/src
-echo "Android main activity" > $HOME/file-ops-lab/projects/mobile-app/android/src/MainActivity.java
-echo "iOS view controller" > $HOME/file-ops-lab/projects/mobile-app/ios/src/ViewController.swift
-echo "Shared utilities" > $HOME/file-ops-lab/projects/mobile-app/shared/utils.js
+# Make sure everything is in place
+cd $HOME/workshop
 
 echo "File operations workshop environment setup completed!" >> /var/log/killercoda
-ls -la $HOME/file-ops-lab >> /var/log/killercoda
+ls -la $HOME/workshop >> /var/log/killercoda
 echo "setup_complete" > /tmp/background_setup_done
