@@ -1,0 +1,22 @@
+{
+  "title": "S01L05: File Operations - cp, mv, rm, find",
+  "description": "Master file management! Learn to copy (cp), move/rename (mv), remove (rm), and find files. Your complete Linux file operations toolkit for professional workflows.",
+  "difficulty": "beginner",
+  "time": "15 minutes",
+  "backend": { "imageid": "ubuntu" },
+  "environment": { "uilayout": "terminal" },
+  "details": {
+    "intro": {
+      "title": "File Operations Workshop",
+      "text": "intro.md",
+      "background": "intro/background.sh",
+      "foreground": "intro/foreground.sh"
+    },
+    "steps": [
+      { "title": "Copy & Backup (cp)", "text": "step1.md" },
+      { "title": "Move & Rename (mv)", "text": "step2.md" },
+      { "title": "Remove & Find (rm, find)", "text": "step3.md" }
+    ]
+  },
+  "finish": { "text": "finish.md" }
+}

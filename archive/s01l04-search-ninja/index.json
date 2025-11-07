@@ -1,0 +1,22 @@
+{
+  "title": "S01L04: Search Ninja - grep Basics & Text Filtering",
+  "description": "Master grep - the ultimate Linux search tool! Learn to find text in files, filter outputs, and search like a ninja. Essential for log analysis and debugging!",
+  "difficulty": "beginner",
+  "time": "12 minutes",
+  "backend": { "imageid": "ubuntu" },
+  "environment": { "uilayout": "terminal" },
+  "details": {
+    "intro": {
+      "title": "Search Ninja Training",
+      "text": "intro.md",
+      "background": "intro/background.sh",
+      "foreground": "intro/foreground.sh"
+    },
+    "steps": [
+      { "title": "Basic Search (grep)", "text": "step1.md" },
+      { "title": "Advanced Search Options", "text": "step2.md" },
+      { "title": "Filter & Combine with Pipes", "text": "step3.md" }
+    ]
+  },
+  "finish": { "text": "finish.md" }
+}
