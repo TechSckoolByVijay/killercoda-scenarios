@@ -1,0 +1,26 @@
+{
+  "title": "Practical Linux File Operations and Permissions",
+  "description": "Master essential file operations: create, edit, copy, move, delete files safely, and understand basic Linux permissions.",
+  "difficulty": "beginner",
+  "time": "25 minutes",
+  "backend": { "imageid": "ubuntu" },
+  "environment": { "uilayout": "terminal" },
+  "details": {
+    "intro": {
+      "title": "Welcome to Linux File Operations",
+      "text": "intro.md",
+      "background": "intro/background.sh",
+      "foreground": "intro/foreground.sh"
+    },
+    "steps": [
+      { "title": "Create Files with touch", "text": "steps/step1.md" },
+      { "title": "Writing & Appending Text", "text": "steps/step2.md" },
+      { "title": "Viewing Files: cat, head, tail, less", "text": "steps/step3.md" },
+      { "title": "Copying & Moving Files", "text": "steps/step4.md" },
+      { "title": "Deleting Files & Folders Safely", "text": "steps/step5.md" },
+      { "title": "Permissions 101", "text": "steps/step6.md" },
+      { "title": "Ownership Basics", "text": "steps/step7.md" }
+    ]
+  },
+  "finish": { "text": "finish.md" }
+}
