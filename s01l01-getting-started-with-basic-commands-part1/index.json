@@ -1,8 +1,8 @@
 {
   "title": "Getting Started with Basic Commands Part 1",
-  "description": "Master essential Linux commands: pwd, whoami, uname, ls variants, cd navigation, mkdir/rmdir, man pages, history, and command chaining.",
+  "description": "Master essential Linux commands: pwd, whoami, uname, ls variants, cd navigation, mkdir/rmdir, man pages, history, and workspace management.",
   "difficulty": "beginner",
-  "time": "25 minutes",
+  "time": "20 minutes",
   "backend": { "imageid": "ubuntu" },
   "environment": { "uilayout": "terminal" },
   "details": {
@@ -21,8 +21,7 @@
       { "title": "Create & Remove Directories", "text": "steps/step6.md" },
       { "title": "Get Help with Manual Pages", "text": "steps/step7.md" },
       { "title": "Command History & Shortcuts", "text": "steps/step8.md" },
-      { "title": "Chain Commands Together", "text": "steps/step9.md" },
-      { "title": "Keep It Clean: clear", "text": "steps/step10.md" }
+      { "title": "Keep It Clean: clear", "text": "steps/step9.md" }
     ]
   },
   "finish": { "text": "finish.md" }

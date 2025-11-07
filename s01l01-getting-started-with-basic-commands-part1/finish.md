@@ -31,12 +31,9 @@ You've successfully mastered the **essential Linux commands** that form the foun
 ### ✅ Documentation & Help
 - **`man`** - Access built-in documentation for any command
 - **`--help`** - Quick syntax reference
-- **`apropos`** - Find commands when you don't know the name
 
-### ✅ Efficiency & Automation
+### ✅ Efficiency & Workspace Management
 - **`history`** - Never retype commands, leverage your command history
-- **Command chaining** - Combine commands with `&&`, `;`, `||`, `&`
-- **Background jobs** - Multitask with `&` and `jobs`
 - **`clear`** - Keep your workspace organized and professional
 
 ## 🚀 You're Now Ready For
@@ -63,22 +60,24 @@ You've successfully mastered the **essential Linux commands** that form the foun
 clear
 
 # Check your context
-pwd && whoami
+pwd
+whoami
 
 # Explore and navigate
-ls -lah && cd target-directory
+ls -lah
+cd target-directory
 
 # Create organized structures  
-mkdir -p project/{src,tests,docs} && cd project
+mkdir -p project/src
+mkdir -p project/tests
+mkdir -p project/docs
+cd project
 
 # Get help when needed
 man command-name
 
 # Use history for efficiency
 history | grep important-command
-
-# Chain operations for power
-command1 && command2 || echo "Handle errors"
 
 # Keep workspace clean
 clear
@@ -88,10 +87,9 @@ clear
 
 1. **Practice Daily** - Use these commands in your regular work
 2. **Build Muscle Memory** - Speed comes with repetition  
-3. **Chain Commands** - Combine simple commands for complex tasks
-4. **Read Documentation** - `man` pages are goldmines of knowledge
-5. **Learn from History** - Your command history shows your patterns
-6. **Stay Organized** - Clean terminal leads to clear thinking
+3. **Use Documentation** - `man` pages are goldmines of knowledge
+4. **Learn from History** - Your command history shows your patterns
+5. **Stay Organized** - Clean terminal leads to clear thinking
 
 ## 🌟 What Makes You Different Now
 
@@ -99,7 +97,7 @@ Before this tutorial, the Linux command line might have seemed intimidating. Now
 
 - **Confidence** to explore any Linux system
 - **Knowledge** of the essential commands that pros use daily  
-- **Efficiency** through shortcuts and command chaining
+- **Efficiency** through shortcuts and command history
 - **Self-sufficiency** with man pages and help systems
 - **Professional habits** that keep you organized
 

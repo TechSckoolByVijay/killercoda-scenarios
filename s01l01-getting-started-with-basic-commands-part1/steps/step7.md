@@ -139,22 +139,10 @@ Common sections:
 |------|---------|---------|
 | Quick syntax | `command --help` | `ls --help` |
 | Full documentation | `man command` | `man ls` |
-| Search for commands | `apropos keyword` | `apropos "list files"` |
-| Find command purpose | `whatis command` | `whatis ls` |
-
-Try these:
-```bash
-whatis ls
-```{{exec}}
-
-```bash
-apropos "remove"
-```{{exec}}
 
 ### ✅ Key Takeaway
 - **man** is your best friend - every command has documentation
 - Use **--help** for quick syntax reminders
-- **apropos** helps you find commands when you don't know the name
 - Never hesitate to **RTFM** (Read The Fine Manual)!
 
 **Ready to master command history?** Click **Next** to learn `history` and shortcuts!

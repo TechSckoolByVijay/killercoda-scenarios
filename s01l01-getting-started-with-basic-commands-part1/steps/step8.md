@@ -174,4 +174,4 @@ history | grep mkdir
 ### ✅ Key Takeaway
 Master command history and you'll never type the same long command twice!
 
-**Ready to combine commands for power?** Click **Next** to learn command chaining!
+**Ready to keep your workspace clean?** Click **Next** to learn about `clear`!

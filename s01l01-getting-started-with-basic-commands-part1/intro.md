@@ -19,7 +19,6 @@ This hands-on scenario teaches you the **foundation commands** that make up 80% 
 ### 📚 Help & Efficiency Tools
 - `man` pages - **Built-in documentation** for any command
 - `history` - **Reuse previous commands** like a time machine
-- Command chaining - **Combine commands** for efficiency
 - `clear` - **Keep your workspace tidy**
 
 ## 🎯 Your Learning Environment
@@ -35,7 +34,7 @@ By the end of this scenario, you'll:
 - **Navigate any Linux system** with confidence
 - **Find and examine files** efficiently
 - **Get help** for any command you encounter
-- **Chain commands** to accomplish complex tasks
+- **Use command history** efficiently
 - **Build muscle memory** for essential operations
 
 ## 💡 Learning Philosophy
