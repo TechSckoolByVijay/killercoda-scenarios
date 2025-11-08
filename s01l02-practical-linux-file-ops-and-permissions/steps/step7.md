@@ -19,7 +19,7 @@ ls -l
 ```{{exec}}
 
 Look at the ownership columns:
-`-rw-rw-r-- 1 root root 25 Nov  7 19:30 linux-commands.txt`
+`-rw-rw-r-- 1 root root YY Mon  dd hh:mm linux-commands.txt`
 
 - First `root` = **user owner**
 - Second `root` = **group owner**

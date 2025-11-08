@@ -1,0 +1,28 @@
+{
+  "title": "Pipes, Grep, and Sed — Smart Workflows",
+  "description": "Master Linux text processing: pipes, grep patterns, cut columns, sort data, and sed transformations for real-world log analysis.",
+  "difficulty": "beginner",
+  "time": "25 minutes",
+  "backend": { "imageid": "ubuntu" },
+  "environment": { "uilayout": "terminal" },
+  "details": {
+    "intro": {
+      "title": "Welcome to Linux Text Processing",
+      "text": "intro.md",
+      "background": "intro/background.sh",
+      "foreground": "intro/foreground.sh"
+    },
+    "steps": [
+      { "title": "The Pipeline Mindset", "text": "steps/step1.md" },
+      { "title": "Command Chaining Mastery", "text": "steps/step2.md" },
+      { "title": "grep Basics for Searching", "text": "steps/step3.md" },
+      { "title": "Advanced grep Patterns", "text": "steps/step4.md" },
+      { "title": "cut for Column Extraction", "text": "steps/step5.md" },
+      { "title": "sort + uniq for Frequency Analysis", "text": "steps/step6.md" },
+      { "title": "wc for Counting Everything", "text": "steps/step7.md" },
+      { "title": "sed for Text Transformations", "text": "steps/step8.md" },
+      { "title": "Real-World Pipeline Challenge", "text": "steps/step9.md" }
+    ]
+  },
+  "finish": { "text": "finish.md" }
+}
